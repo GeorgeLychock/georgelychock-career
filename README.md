@@ -52,6 +52,9 @@ This is the main career website for George Lychock. It contains all the job, edu
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
 -   ### Structure Regs
     -   Persistent nav footer on Smartphone viewports
+    -   Resume download to be present at top on all screens
+-   ### Navigation
+    -   Persistent Back button
 
 
 ## Approved Features and Initial Release Strategy
