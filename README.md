@@ -3,7 +3,7 @@
 
 <h1 align="center">George Lychock Career Website</h1>
 
-[View the live project here.](http://www.georgelychock-career.com)
+[View the live project here.](http://www.georgelychock-career.com/pages/test/bs01-index.html)
 
 This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock.
 
