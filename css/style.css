@@ -1,4 +1,4 @@
-/* georgelychock-career,com styles */
+/* georgelychock-career.com stylesheet */
 
 /* CSS Sections - In Order of Appearance:: */
 
@@ -36,11 +36,11 @@ body {
     background-color: #f05f40;
     color: white;
 }
-.alert-container .col-12 {
+/*.alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
-}
-.site-wide-alert {
+}*/
+/*.site-wide-alert {
     color: #544600;
     background-color:#999;
     border-color: #999;
@@ -48,10 +48,10 @@ body {
     margin-bottom: 0;
     border: 1px solid transparent;
     border-radius: 0;
-}
+}*/
 .callout-container{
     height: 100vh;
-    background: url("../images/hero-bridgewater-milling-machineshop.jpg") no-repeat center center fixed; 
+    background: url("../images/hero-bridgewater-milling-machineshop-bw.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,7 +119,7 @@ body {
 .jumbotron small {
     font-size: 80%;
     font-style: italic;
-    color: #36f;
+    color: #fff;
 }/* bootstrap overide */
 
 .jumbotron-header {
@@ -129,6 +129,12 @@ body {
 }
 .jumbotron .lead {
     margin: 25px 0;
+}
+.tagline {
+    margin-top: 30px;
+    background-color: #000;
+    opacity: 75%;
+    padding: 10px;
 }
 
 /* Narbar styles */
@@ -165,6 +171,12 @@ body {
 
 /* Buttons */
 .btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 320px;
+    margin-bottom: 30px;
+}
+.btn--cta-nav {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
