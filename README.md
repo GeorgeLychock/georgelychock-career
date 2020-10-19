@@ -17,7 +17,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### General User Experience
         
         1.   As a Site Visitor, I want to be able to easily navigate throughout the site to find content.
-        -   ##### Acceptance Criteria -- Duplicated in Testing below
+            -   ##### Acceptance Criteria -- Duplicated in Testing below
                 * Main Content should never be more than **two clicks** away from home.
                 * Home should never be more than **one click** away from anywhere on the site.
                 * Nav dropdown is required, giving access to any main content page [caeeer objectives, education, skills, work history, and professioanl development.]
