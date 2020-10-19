@@ -7,7 +7,7 @@
 
 This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed' code will be documented below.
 
-<img align="center" src="http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png>
+<img align="center" src="http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png">
 
 ![Project Hero Image](http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png)
 
