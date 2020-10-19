@@ -14,7 +14,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### User stories
 
-    -   #### General User Experience
+    #### General User Experience
         
         1.  As a site Visitor, I want to be able to easily navigate throughout the site to find content.
             -   ##### Acceptance Criteria
