@@ -1,29 +1,34 @@
 # georgelychock-career
-## My User Centric Frontend Development Mini-Project
+## My User Centric Frontend Development Milestone Project
 
 <h1 align="center">George Lychock Career Website</h1>
 
 [View the live project here.](http://www.georgelychock-career.com/pages/test/index.html)
 
-This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock.
+This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that now currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existimg content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed' code will be completely documented below.
 
-<h2 align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png"></h2>
+![Project Hero Image](http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png)
 
 ## User Experience (UX)
-
+    Since this site will almost always be accessed by first-time users, the focus will be on a more simple, not busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
 -   ### User stories
 
-    -   #### First Time Visitor Goals
-
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site is to provide details regarding George Lychock [caeeer objectives, education, skills, work history, and professioanl development.]
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+    -   #### General User Experience
+        [caeeer objectives, education, skills, work history, and professioanl development.]
+        2. As a site Visitor, I want to be able to easily navigate throughout the site to find content.
+            - Main Objective Content should never be more than two clicks away from home; 
         3. As a First Time Visitor, I want to be able to access the website from desktop, tablet, or mobile device gaining the same information across all devices.
 
-    -   #### Returning Visitor Goals
+    -   #### Recruiter and HR Contact Experience
+
+        1. As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+
+
+    -   #### Hiring Manager Experience
 
         1. No goals at present.
 
-    -   #### Frequent User Goals
+    -   #### Casual Visitor Experience
         1. No goals at present.
 
 -   ### Design
