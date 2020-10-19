@@ -9,8 +9,6 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
 
-![Project Hero Image](http://www.georgelychock-career.com/images/glcareer-opener-03-150w.png)
-
 -   ## User Experience (UX)
     Since this site will almost always be accessed by first-time users, the focus will be on a more simple, not busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
 
@@ -18,11 +16,11 @@ This is the main career website for George Lychock. It contains all the job, edu
 
     -   #### General User Experience
         
-        1. As a site Visitor, I want to be able to easily navigate throughout the site to find content.
-        -   ##### Acceptance Criteria
-            * Main Content should never be more than **two clicks** away from home.
-            * Home should never be more than **one click** away from anywhere on the site.
-            * Nav dropdown is required, giving access to any main content page [caeeer objectives, education, skills, work history, and professioanl development.]
+    1. As a site Visitor, I want to be able to easily navigate throughout the site to find content.
+            -   ##### Acceptance Criteria
+                * Main Content should never be more than **two clicks** away from home.
+                * Home should never be more than **one click** away from anywhere on the site.
+                * Nav dropdown is required, giving access to any main content page [caeeer objectives, education, skills, work history, and professioanl development.]
 
         2. All content, with exception of imagery, has to be accessible from desktop, tablet, or mobile device.
 
