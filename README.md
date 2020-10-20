@@ -23,8 +23,8 @@ This is the main career website for George Lychock. It contains all the job, edu
                 3.  Nav dropdown is required, giving access to any main content page (caeeer objectives, education, skills, work history, and professioanl development.)
 
         2.  As a Site Visitor, I want to be able to see a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
-            ##### Acceptance Criteria Duplicated in Testing below
-            *  All content, with exception of imagery, has to be accessible from desktop, tablet, or mobile device.
+            -  ##### Acceptance Criteria Duplicated in Testing below
+                1.  All content, with exception of imagery, has to be accessible from desktop, tablet, or mobile device.
 
     -   #### Recruiter and HR Contact Experience
 
