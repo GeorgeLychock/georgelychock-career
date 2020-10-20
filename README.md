@@ -126,7 +126,7 @@ Release 4
 3. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 3. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/) during the design process.
 3. [Jira:](https://www.atlassian.com/software/jira)
     - Jira was used to track spints and work logs for all work done on the site.
 3. [Confluence:](https://www.atlassian.com/software/confluence)
