@@ -10,7 +10,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
 
 -   ## User Experience (UX)
-    Since this site will almost always be accessed by first-time users, the focus will be on a more simple, not busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
+    Since this site will almost always be accessed by first-time users, the focus will be on a more simple, less-busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
 
 -   ### User stories
     -   #### General User Experience
@@ -28,24 +28,24 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Recruiter and HR Contact Experience
         1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  TK
+                1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
                 2.  TK
 
     -   #### Hiring Manager Experience
-        1.  As a Hiring Manager, TK
+        1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  TK
-                2.  TK
+                1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
+                2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
 
     -   #### Casual Visitor Experience
-        1.  As a Casual Visitor, TK
+        1.  As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  TK
                 2.  TK
 
 -   ### Design
     -   #### Colour Scheme
-        -   TBD. Most like using a white main background to give a more professional look as opposed to black.
+        -   Most likely using a white main background to give a more professional look as opposed to black or dark colors.
     -   #### Typography
         -   TBD.
     -   #### Imagery
