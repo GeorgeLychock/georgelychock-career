@@ -7,7 +7,7 @@
 
 This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed' code will be documented below.
 
-##### Posible landing page image, carried over from BS3 site:
+##### Possible landing page image, carried over from BS3 site:
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
 
 -   ## User Experience (UX)
@@ -19,7 +19,7 @@ This is the main career website for George Lychock. It contains all the job, edu
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Main Content should never be more than **two clicks** away from home.
                 2.  Home should never be more than **one click** away from anywhere on the site.
-                3.  Nav dropdown is required, giving access to any main content page (caeeer objectives, education, skills, work history, and professioanl development.)
+                3.  Nav dropdown is required, giving access to any main content page (career objectives, education, skills, work history, and pd.)from anywhere in the site.
 
         2.  As a Site Visitor, I want to be able to see a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria Duplicated in Testing below
