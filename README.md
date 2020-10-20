@@ -19,7 +19,7 @@ This is the main career website for George Lychock. It contains all the job, edu
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Main Content should never be more than **two clicks** away from home.
                 2.  Home should never be more than **one click** away from anywhere on the site.
-                3.  Nav dropdown is required, giving access to any main content page (career objectives, education, skills, work history, and pd.)from anywhere in the site.
+                3.  Nav dropdown is required, giving access to any main content page (career objectives, education, skills, work history, pd etc.) from anywhere in the site.
 
         2.  As a Site Visitor, I want to be able to see a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria Duplicated in Testing below
@@ -30,7 +30,8 @@ This is the main career website for George Lychock. It contains all the job, edu
         1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
-                2.  TK
+                2.  Access to the most recently published resume.
+                3.  Access to any other relevant online resources showing George's career history and path
 
     -   #### Hiring Manager Experience
         1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
