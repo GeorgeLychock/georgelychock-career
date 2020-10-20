@@ -26,10 +26,13 @@ This is the main career website for George Lychock. It contains all the job, edu
             -  ##### Acceptance Criteria Duplicated in Testing below
                 1.  All content, with exception of imagery, has to be accessible from desktop, tablet, or mobile device.
 
+
     -   #### Recruiter and HR Contact Experience
 
-        1. As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
-            -   ##### Acceptance Criteria -- Duplicated in Testing below
+        1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  TK
+                2.  TK
 
     -   #### Hiring Manager Experience
 
