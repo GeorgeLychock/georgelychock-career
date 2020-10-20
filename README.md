@@ -57,11 +57,10 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
+    -   Desktop Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
 
     -   Mobile Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01.pdf)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Requirements
 -   ### Business Reqs
