@@ -38,7 +38,7 @@ This is the main career website for George Lychock. It contains all the job, edu
                 2.  TK
 
     -   #### Casual Visitor Experience
-        1.  As a Hiring Manager, TK
+        1.  As a Casual Visitor, TK
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  TK
                 2.  TK
