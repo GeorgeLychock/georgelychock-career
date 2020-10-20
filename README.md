@@ -13,9 +13,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     Since this site will almost always be accessed by first-time users, the focus will be on a more simple, not busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
 
 -   ### User stories
-
     -   #### General User Experience
-        
         1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Main Content should never be more than **two clicks** away from home.
@@ -28,18 +26,22 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 
     -   #### Recruiter and HR Contact Experience
-
         1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  TK
                 2.  TK
 
     -   #### Hiring Manager Experience
-
-        1. No goals at present.
+        1.  As a Hiring Manager, TK
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  TK
+                2.  TK
 
     -   #### Casual Visitor Experience
-        1. No goals at present.
+        1.  As a Hiring Manager, TK
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  TK
+                2.  TK
 
 -   ### Design
     -   #### Colour Scheme
