@@ -17,7 +17,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### General User Experience
         
         1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
-            -  Acceptance Criteria -- Duplicated in Testing below
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Main Content should never be more than **two clicks** away from home.
                 2.  Home should never be more than **one click** away from anywhere on the site.
                 3.  Nav dropdown is required, giving access to any main content page (caeeer objectives, education, skills, work history, and professioanl development.)
