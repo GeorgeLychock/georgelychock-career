@@ -1,237 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gl-career | Resume, Professional Development, and all other things career orientated.</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/0f32915ec7.js" crossorigin="anonymous"></script>
+    <title>George Lychock Career Website</title>
+
+
+
+
+
+
+    
 </head>
 
+
+
+
+
+
+
+
 <body>
-    <!-- Nav and Alert-->
-    <div class="container-fluid navalert-container">
-        <!-- <div class="container-fluid alert-container">
-            <div class="row d-none d-sm-block">
-                <div class="col-12">
-                    <div class="site-wide-alert alert alert-warning">
-                        <strong>Download Resume</strong><a href=""> PDF Format</a>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-        <nav class="navbar navbar-light bg-light navbar-expand-lg">
-            <a href="/" class="navbar-brand">gl-career.com</a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-2"><a class="nav-link" href="/aboot">Work History</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Interests|Projects|Portfolio</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Interests</a>
-                            <a class="dropdown-item" href="#">Projects</a>
-                            <a class="dropdown-item" href="#">Portfolio</a>
-                        </div>
-                    </li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/aboot">Professional Summary</a></li>
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Download Resume</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="d-none d-md-block">
-                <p class="navbar-text my-auto mr-2"><i>Download Most Recent Published Resume</i></p>
-                <a href="/login" class="btn btn--cta-nav btn--red">Download Resume</a>
-            </div>
-        </nav>
-    </div>
-
-    <!-- Callout -->
-    <div class="container-fluid callout-container">
-        <!-- want to try to keep the semantic markup -->
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1 class="jumbotron-header">Welcome!</h1>
-                    <hr class="block-divider-01 block-divider--orange ">
-                    <p class="lead">georgelychock-career.com</p>
-                    <button class="btn btn-lg btn--cta btn--red">Download Resume</button>
-                    <hr class="block-divider-01 block-divider--orange ">
-                    <div class="tagline"><p><small>A site built by me, George Lychock, conveying all my professional information.</small></p></div>
-                </section>
-            </div>
-        </div>
-    </div>
-    <!-- /.Callout -->
-    <hr>
-    <!-- Quotes -->
-    <div class="container-wrapper">
-        <div class="container quotes-container content-container">
-            <section class="quotes">
-                <div class="row">
-                    <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Quotes</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <div class="media">
-                            <img src="images/me-03.png" class="rounded-circle mr-3" height="100px" width="100px">
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I've been introduced to more than 10 great international whiskeys I never knew
-                                        about.
-                                    </p>
-                                    <p>- Jane Doe</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="media">
-                            <img src="images/me-03.png" class="rounded-circle mr-3" height="100px" width="100px">
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p>I haven't been sober for months!</p>
-                                    <footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
-                                    </footer>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- /.Quotes -->
-    <hr>
-    <!-- Features -->
-    <div class="container-wrapper container-wrapper--red">
-        <div class="container feature-container content-container">
-            <section class="features">
-                <div class="row">
-                    <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Features:</h2>
-                        <hr class="block-divider block-divider--short block-divider--white">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3><i class="fas fa-gift d-none d-sm-block"></i> Feature 1 <span class="badge badge-success">NEW!</span></h3>
-                            <p>Automatically get a new bottle each month.</p>
-                            <button class="btn btn-sm btn-light">Read More</button>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <h3><i class="fas fa-credit-card d-none d-sm-block"></i> Feature 2</h3>
-                            <p>Ship on the day on the month of your choosing.</p>
-                            <button class="btn btn-sm btn-light">Read More</button>
-                        </div>
-                    </div>
-                    <div class="col-12 d-md-none d-lg-block col-lg-4">
-                        <div class="feature">
-                            <h3><i class="fas fa-times-circle d-none d-sm-block"></i> Feature 3</h3>
-                            <p>Cancel at any time*.</p>
-                            <button class="btn btn-sm btn-light">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <!-- /.Features -->
-    <hr>
-    <!-- Monthly Favs -->
-    <div class="container favs-container content-container">
-        <section class="favorites">
-            <div class="col-12 page-header">
-                <h2 class="text-uppercase">Monthly Favorites</h2>
-            </div>
-            <table class="table table-dark">
-                <thead>
-                    <tr>
-                        <th scope="col">ranking</th>
-                        <th scope="col">name</th>
-                        <th scope="col">origin</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Markem</td>
-                        <td>Kittery</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>GlennSloshing</td>
-                        <td>Cork</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Angry Grose</td>
-                        <td>Galway</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </div>
-    <!-- /.Monthly Favs -->
-
-
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Sign Uo To Whiskey Drop!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password">
-                        </div>
-                        <button type="submit" class="btn btn-success">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Load Bootstrap js and its dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-
+    
 </body>
-
 </html>
