@@ -1,220 +1,73 @@
-/* georgelychock-career.com stylesheet */
+/* george lychock career website stylesheet */
 
-/* CSS Sections - In Order of Appearance:: */
 
+
+/* ######## CSS TOC - In Order of Appearance: */
+/* @Imports */
 /* Base Element styles */
+/* Common styles */
+/* Heading styles */
+/* Nav styles */
+/* Hover.css styles */
+/* Main Content: Home Contact Info styles */
+/* Main Content: Home Personal Info styles */
+/* Main Content: Resume styles */
+/* Main Content: Contact styles */
+/* Footer styles */
+/* @Media Breakpoint Styles */
+
+/* NOT USED.... */
 /* Container styles */
-/* Features styles */
 /* Jumbotron styles */
 /* Narbar styles */
 /* Buttons */
 /* Spacer and Divider styles */
+/*########## /CSS TOC */
 
 
 
+/* Thinking about putting a copy of all the color styles here; CLASSES only:
 
-
-
-
-
-
-
-
-
-/* Base Element styles */
-body {
-    font-family: 'Roboto', sans-serif;
+.bg-color-name-title {
+    background-color: #699;
 }
-
-
-
-/* Container styles */
-
-/*.container-wrapper {} */
-
-.container-wrapper--red {
-    background-color: #f05f40;
-    color: white;
-}
-/*.alert-container .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-}*/
-/*.site-wide-alert {
-    color: #544600;
-    background-color:#999;
-    border-color: #999;
-    padding: 5px 15px;
-    margin-bottom: 0;
-    border: 1px solid transparent;
-    border-radius: 0;
-}*/
-.callout-container{
-    height: 100vh;
-    background: url("../images/hero-bridgewater-milling-machineshop-bw.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.content-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
-/* .features-container {} */
-/* .quotes-container {} */
-
-/* .favs-container {} */
-
-
-
-/* Quotes */
-
-.quotes .page-header {
-    margin-bottom: 25px;
-}
-
-/* Features styles */
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
-}
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.feature .btn {
-    background-color: white;
-    border-color: white;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #f05f40;
-}
-
-/* Jumbotron styles */
-
-
-.jumbotron {
-    background-color: transparent;
-    color: #d0d0d0;
-}/* bootstrap overide */
-.jumbotron small {
-    font-size: 80%;
-    font-style: italic;
-    color: #fff;
-}/* bootstrap overide */
-
-.jumbotron-header {
-    color: white;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-.jumbotron .lead {
-    margin: 25px 0;
-}
-.tagline {
-    margin-top: 30px;
-    background-color: #000;
-    opacity: 75%;
-    padding: 10px;
-}
-
-/* Narbar styles */
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.navbar {
-    margin-bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, .25);
-    border: 0;
-}/* bootstrap overide */
-.navbar .navbar-toggler {
-    border: 0;
-}
-
-/* Page Headers */
-
-.page-header {
-    margin-bottom: 0;
-    border-bottom: 0;
-    text-align: center;
-}
-
-.page-header h2 {
-    margin-top: 0;
-}
-
-/* Buttons */
-.btn--cta {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 320px;
-    margin-bottom: 30px;
-}
-.btn--cta-nav {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
-
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
-}
-
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-
-
-/* Spacer and Divider styles */
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-}
-
-.block-divider--orange {
-    background-color: #f05f40;
-}
-.block-divider--white {
+.bg-color-three-reasons {
     background-color: #fff;
 }
-.block-divider--short {
-    width: 35px;
+etc...
+*/
+
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* Base Element styles */
+header {
+    margin: 0;
+}
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
 }
 
+/* Framework Override styles */
+/* Future home of Framework Override styles */
+/* I think framework (Bootstrap) Overides should be kept in one location */
 
 
+/* Common styles */
+.uppercase {
+    text-transform: uppercase;
+}
