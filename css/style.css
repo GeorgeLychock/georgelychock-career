@@ -6,6 +6,9 @@
 /* @Imports */
 /* Base Element styles */
 /* Common styles */
+/* Banner styles */
+
+/*NOT USED ......
 /* Heading styles */
 /* Nav styles */
 /* Hover.css styles */
@@ -15,8 +18,6 @@
 /* Main Content: Contact styles */
 /* Footer styles */
 /* @Media Breakpoint Styles */
-
-/* NOT USED.... */
 /* Container styles */
 /* Jumbotron styles */
 /* Narbar styles */
@@ -70,4 +71,11 @@ button[type="submit"] {
 /* Common styles */
 .uppercase {
     text-transform: uppercase;
+}
+
+
+/* Banner styles */
+.jumbo-bg {
+    background-image: url(../images/hero-bridgewater-milling-machineshop-bw.jpg);
+    min-height: 400px;
 }
