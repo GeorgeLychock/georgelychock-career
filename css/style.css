@@ -75,7 +75,11 @@ button[type="submit"] {
 
 
 /* Banner styles */
-.jumbo-bg {
+.gl-jumbo-bg {
     background-image: url(../images/hero-bridgewater-milling-machineshop-bw.jpg);
-    min-height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    color: wheat;
 }
