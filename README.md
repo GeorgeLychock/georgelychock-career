@@ -61,7 +61,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 
     -   Mobile Wireframe (Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-scrolling-home.pdf)
 
-    -   Mobile Wireframe (No Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-n0-scrolling-home.pdf)
+    -   Mobile Wireframe (No Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-no-scrolling-home.pdf)
 
 ## Requirements
 -   ### Business Reqs
