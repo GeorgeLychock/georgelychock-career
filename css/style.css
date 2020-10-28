@@ -6,7 +6,7 @@
 /* @Imports */
 /* Base Element styles */
 /* Common styles */
-/* Banner styles */
+/* Hero styles */
 
 /*NOT USED ......
 /* Heading styles */
@@ -40,46 +40,55 @@ etc...
 
 
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap');
 
 /* Base Element styles */
-header {
-    margin: 0;
-}
-footer {
-    background-color: #525252;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
 h1, h2, h3, h4 {
     margin: 0;
 }
-button[type="submit"] {
-    margin-top: 15px;
-    margin-bottom: 20px;
-    color: #fafafa;
-    background-color: #e84610;
-}
+
 
 /* Framework Override styles */
 /* Future home of Framework Override styles */
 /* I think framework (Bootstrap) Overides should be kept in one location */
 
-
 /* Common styles */
 .uppercase {
     text-transform: uppercase;
 }
-
-
-/* Banner styles */
-.gl-jumbo-bg {
-    background-image: url(../images/hero-bridgewater-milling-machineshop-bw.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 800px;
+/* Nav styles */
+.gl-narbar-outer {
+    padding: 0;
+    margin: 0;
+}
+.gl-narbar-outer-row {
+    margin: 0;
+}
+.gl-navbar {
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.gl-navbar a {
+    padding: 2px 5px 4px 8px;
     color: wheat;
+    text-decoration: none;
+}
+.gl-navbar a:hover {
+    color: whitesmoke;
+}
+
+/* Hero styles */
+.gl-hero-image {
+    height: 800px;
+    width: 100%;
+    background: url("../images/hero-bridgewater-milling-machineshop-bw-2200w.jpg") no-repeat center center;
+   }
+.gl-hero-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: wheat;
+    padding-top: 10%;
+}
+.gl-hero-title h1 {
+    font-size: 4rem;
 }
