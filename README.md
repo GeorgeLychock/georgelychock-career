@@ -69,12 +69,48 @@ This is the main career website for George Lychock. It contains all the job, edu
         -   Smartphone first design; to replicate a native app as closely as possible
         -   Re-work Smartphone UX into a desktop experience
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
+        -   Site navigation needs to be simple, no dropdowns
 -   ### Structure Reqs
-    -   Persistent nav footer on Smartphone viewports
-    -   Resume download to be present at top on all screens
+    -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
+    -   Three (3) screen max click path to any content on the site
+    -   Resume download to be present at top on all screens, all viewports
+    -   Persistent social media icons as footer for all screen, all viewports
+    -   High Level Sitemap:
+        -   Home   
+            -   Work History
+                -   Work History Item
+            -   Skills Summary and Career Focuses
+                -   Currently Working On Item
+                -   Recent Certifications Item
+                -   Skills Progress Bar Item
+            -   Portfolio and Projects
+                -   Project Item
+                -   Portfolio Item
+            -   Education, Credentials, and Professional Development
+                -   Edu Item
+                -   Cred Item
+                -   PD Item
+    -   Main Page Sections:
+        -   Home
+            -   Download Resume Feature
+            -   Jumbotron
+            -   Nav (to Content Area Landing Pages eg Work History)
+            -   Social Media Links
+        -   Secondary Pages (Content Area Landing Page)
+            -   Download Resume Feature
+            -   Nav (to Content Area Landing Pages eg Work History)
+            -   Content TOC, Short Descriptions
+            -   Social Media Links
+        -   Third Pages (Content Item Page)
+            -   Download Resume Feature
+            -   Nav (to Content Area Landing Pages eg Work History)
+            -   Content Item, Long Description
+            -   Social Media Links
 -   ### Navigation Reqs
     -   Persistent Back button
-
+    -   Persistent nav header on Smartphone viewports
+    -   Menu item should have respective icons
+-   ### Future Reqs
 
 ## Approved Features and Initial Release Strategy
 
