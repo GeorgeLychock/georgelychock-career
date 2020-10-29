@@ -1,5 +1,5 @@
 /* george lychock career website stylesheet */
-
+/* NOTES: 1) all custom classes start with "gl-" to better find in the markup */
 
 
 /* ######## CSS TOC - In Order of Appearance: */
@@ -57,15 +57,12 @@ h1, h2, h3, h4 {
     text-transform: uppercase;
 }
 /* Nav styles */
-.gl-narbar-outer {
+.gl-navbar-col {
     padding: 0;
     margin: 0;
 }
-.gl-narbar-outer-row {
-    margin: 0;
-}
 .gl-navbar {
-    margin-left: 10px;
+    padding-left: 10px;
     font-family: 'Raleway', sans-serif;
 }
 .gl-navbar a {
