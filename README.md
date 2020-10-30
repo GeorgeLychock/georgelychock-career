@@ -108,7 +108,7 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Social Media Links
 -   ### Navigation Reqs
     -   Persistent Back button
-    -   Persistent nav header on Smartphone viewports
+    -   ~~Persistent nav header on Smartphone viewports~~ Removed.
     -   Menu item should have respective icons
 -   ### Future Reqs
 
