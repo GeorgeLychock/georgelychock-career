@@ -75,6 +75,9 @@ h1, h2, h3, h4 {
 }
 
 /* Hero styles */
+.gl-hero-row {
+    margin: 0;
+}
 .gl-hero-image {
     height: 800px;
     width: 100%;
@@ -86,11 +89,9 @@ h1, h2, h3, h4 {
     color: wheat;
     padding-top: 10%;
 }
-.gl-hero-title h1 {
-    font-size: 4rem;
-}
-.gl-hero-row {
+.gl-icon-row {
     text-align: center;
+    padding-top: 20%;
 }
 .gl-nav-icon {
     font-size: 2rem;
@@ -100,3 +101,13 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     color: wheat;
 }
+@media only screen and (max-width: 600px) {
+    .gl-nav-icon {
+        font-size: .75rem;
+        color: wheat;
+    }
+    .gl-nav-icon-name {
+        font-size: .75rem;
+        color: wheat;
+    }
+   }
