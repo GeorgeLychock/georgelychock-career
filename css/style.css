@@ -56,7 +56,10 @@ h1, h2, h3, h4 {
 .uppercase {
     text-transform: uppercase;
 }
-/* Nav styles */
+.lowcase {
+    text-transform: lowercase;
+}
+/* Navbar styles */
 .gl-navbar-col {
     padding: 0;
     margin: 0;
@@ -75,9 +78,6 @@ h1, h2, h3, h4 {
 }
 
 /* Hero styles */
-.gl-hero-row {
-    margin: 0;
-}
 .gl-hero-image {
     height: 800px;
     width: 100%;
@@ -89,6 +89,8 @@ h1, h2, h3, h4 {
     color: wheat;
     padding-top: 10%;
 }
+
+/* Nav Icon styles */
 .gl-icon-row {
     text-align: center;
     padding-top: 20%;
@@ -109,5 +111,8 @@ h1, h2, h3, h4 {
     .gl-nav-icon-name {
         font-size: .75rem;
         color: wheat;
+    }
+    .gl-hero-image {
+        max-height: 667px;
     }
    }
