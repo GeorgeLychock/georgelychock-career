@@ -89,3 +89,14 @@ h1, h2, h3, h4 {
 .gl-hero-title h1 {
     font-size: 4rem;
 }
+.gl-hero-row {
+    text-align: center;
+}
+.gl-nav-icon {
+    font-size: 2rem;
+    color: wheat;
+}
+.gl-nav-icon-name {
+    font-size: 2rem;
+    color: wheat;
+}
