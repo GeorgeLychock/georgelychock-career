@@ -3,14 +3,16 @@
 
 
 /* ######## CSS TOC - In Order of Appearance: */
-/* @Imports */
+/* @imports */
 /* Base Element styles */
 /* Common styles */
+/* Navbar styles */
 /* Hero styles */
+/* Nav Icon styles */
+/* @media styles */
 
 /*NOT USED ......
 /* Heading styles */
-/* Nav styles */
 /* Hover.css styles */
 /* Main Content: Home Contact Info styles */
 /* Main Content: Home Personal Info styles */
@@ -20,7 +22,6 @@
 /* @Media Breakpoint Styles */
 /* Container styles */
 /* Jumbotron styles */
-/* Narbar styles */
 /* Buttons */
 /* Spacer and Divider styles */
 /*########## /CSS TOC */
@@ -56,7 +57,7 @@ h1, h2, h3, h4 {
 .uppercase {
     text-transform: uppercase;
 }
-.lowcase {
+.lowercase {
     text-transform: lowercase;
 }
 /* Navbar styles */
@@ -88,6 +89,10 @@ h1, h2, h3, h4 {
     text-align: center;
     color: wheat;
     padding-top: 10%;
+}
+.gl-hero-title-heading {
+    font-size: 2rem;
+    font-weight: 300;
 }
 
 /* Nav Icon styles */
