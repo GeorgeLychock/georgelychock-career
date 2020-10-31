@@ -7,6 +7,7 @@
 /* Base Element styles */
 /* Common styles */
 /* Navbar styles */
+/* Banner styles */
 /* Hero styles */
 /* Nav Icon styles */
 /* @media styles */
@@ -60,22 +61,39 @@ h1, h2, h3, h4 {
 .lowercase {
     text-transform: lowercase;
 }
+
 /* Navbar styles */
 .gl-navbar-col {
     padding: 0;
     margin: 0;
 }
 .gl-navbar {
-    padding-left: 10px;
+    padding-left: 9px;
     font-family: 'Raleway', sans-serif;
 }
 .gl-navbar a {
-    padding: 2px 5px 4px 8px;
+    padding: 3px 6px 3px 9px;
     color: wheat;
     text-decoration: none;
 }
 .gl-navbar a:hover {
     color: whitesmoke;
+}
+
+/* Banner styles */
+.gl-banner-row {
+    background-color: wheat;
+}
+.gl-pdf-icon {
+    display: inline;
+    margin-left: 6px;
+    color: #666;
+}
+.gl-banner-col {
+    margin: 0;
+}
+.gl-banner-col a {
+    color: #000;
 }
 
 /* Hero styles */
@@ -108,6 +126,8 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     color: wheat;
 }
+
+/* @media styles */
 @media only screen and (max-width: 600px) {
     .gl-nav-icon {
         font-size: .75rem;
