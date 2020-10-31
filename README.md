@@ -299,11 +299,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The download button code came from Code Institute, User Centric Module, Full Stack Software Deveveloper Program:
-        Find code use indicated by <!-- CODE REUSE - Download Button User Centric Module, Code Institute -->
-        <div class="d-none d-md-block">
+    Find code use indicated by "CODE REUSE - Download Button User Centric Module, Code Institute"
+        `<div class="d-none d-md-block">
             <p class="navbar-text my-auto mr-2"><i>Download Most Recent Published Resume</i></p>
             <a href="/login" class="btn btn--cta-nav btn--red">Download Resume</a>
-        </div>
+        </div>`
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
