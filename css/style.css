@@ -95,6 +95,23 @@ h1, h2, h3, h4 {
 .gl-banner-col a {
     color: #000;
 }
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+.gl-download-btn {
+    margin-right: 2px;
+    color: wheat;
+}
 
 /* Hero styles */
 .gl-hero-image {
@@ -125,6 +142,18 @@ h1, h2, h3, h4 {
 .gl-nav-icon-name {
     font-size: 2rem;
     color: wheat;
+}
+
+/* Footer Styles */
+.gl-footer-row {
+    background-color: transparent;
+    margin-top: 30px;
+}
+.gl-footer-ul {
+    float: right;
+}
+.gl-footer-icon {
+    background-color: transparent;
 }
 
 /* @media styles */
