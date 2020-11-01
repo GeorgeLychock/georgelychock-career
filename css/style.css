@@ -10,6 +10,7 @@
 /* Banner styles */
 /* Hero styles */
 /* Nav Icon styles */
+/* Social Link Styles */
 /* @media styles */
 
 /*NOT USED ......
@@ -19,7 +20,7 @@
 /* Main Content: Home Personal Info styles */
 /* Main Content: Resume styles */
 /* Main Content: Contact styles */
-/* Footer styles */
+/* social styles */
 /* @Media Breakpoint Styles */
 /* Container styles */
 /* Jumbotron styles */
@@ -144,15 +145,15 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Footer Styles */
-.gl-footer-row {
+/* Social Link Styles */
+.gl-social-row {
     background-color: transparent;
     margin-top: 30px;
 }
-.gl-footer-ul {
+.gl-social-ul {
     float: right;
 }
-.gl-footer-icon {
+.gl-social-icon {
     background-color: transparent;
 }
 
@@ -168,5 +169,9 @@ h1, h2, h3, h4 {
     }
     .gl-hero-image {
         max-height: 667px;
+    }
+    .gl-social-row {
+        background-color: transparent;
+        margin-top: 225px;
     }
    }
