@@ -73,7 +73,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 -   ### Structure Reqs
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
-    -   Resume download to be present at top on all screens, all viewports
+    -   Resume download to be present at top on all screens, all viewports, fixed to top
     -   Persistent social media icons as footer for all screen, all viewports
     -   High Level Sitemap:
         -   Home   
