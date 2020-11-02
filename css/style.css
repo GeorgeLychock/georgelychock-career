@@ -10,6 +10,7 @@
 /* Banner styles */
 /* Hero styles */
 /* Nav Icon styles */
+/* Page 2 - Work History Styles */
 /* Social Link Styles */
 /* @media styles */
 
@@ -20,8 +21,6 @@
 /* Main Content: Home Personal Info styles */
 /* Main Content: Resume styles */
 /* Main Content: Contact styles */
-/* social styles */
-/* @Media Breakpoint Styles */
 /* Container styles */
 /* Jumbotron styles */
 /* Buttons */
@@ -114,7 +113,14 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 .gl-home-icon {
-    color: #00e600;
+    color: #9cf;
+}
+.gl-home-icon{
+    margin-left: 6px;
+    padding: 5px 10px;
+}
+.gl-home-icon-title{
+    display: inline;
 }
 
 /* Hero styles */
@@ -147,6 +153,15 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     color: wheat;
 }
+
+
+/* Page 2 - Work History Styles */
+.gl-content-1 {
+    height: 800px;
+    width: 100%;
+}
+
+
 
 /* Social Link Styles */
 .gl-social-row {
