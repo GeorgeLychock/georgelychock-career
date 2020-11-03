@@ -223,9 +223,6 @@ h1, h2, h3, h4 {
         font-size: .75rem;
         color: wheat;
     }
-    .gl-hero-image {
-        max-height: 667px;
-    }
     .gl-social-row {
         background-color: transparent;
         margin-top: 150px;
