@@ -170,7 +170,7 @@ h1, h2, h3, h4 {
 
 /* Page 2 - Content Area Styles */
 .gl-content-1 {
-    height: 800px;
+    height: 200px;
     width: 100%;
 }
 .gl-content-heading {
@@ -179,6 +179,23 @@ h1, h2, h3, h4 {
 .gl-content-heading-outter {
     background-color: #000;
     color: wheat;
+}
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    height: 25px;
+    padding: 12px 8px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+.progress-section {
+    margin: 40px 20px;
 }
 
 /* Social Link Styles */
