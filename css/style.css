@@ -168,13 +168,18 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Page 2 - Work History Styles */
+/* Page 2 - Content Area Styles */
 .gl-content-1 {
     height: 800px;
     width: 100%;
 }
+.gl-content-heading {
 
-
+}
+.gl-content-heading-outter {
+    background-color: #000;
+    color: wheat;
+}
 
 /* Social Link Styles */
 .gl-social-row {
