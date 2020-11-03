@@ -82,18 +82,18 @@ h1, h2, h3, h4 {
 
 /* Banner styles */
 .gl-banner-row {
-    background-color: wheat;
+    background-color: #000;
 }
 .gl-pdf-icon {
     display: inline;
     margin-left: 6px;
-    color: #666;
+    color: #fff;
 }
 .gl-banner-col {
     margin: 0;
 }
 .gl-banner-col a {
-    color: #000;
+    color: whitesmoke;
 }
 .btn--red {
     color: white;
@@ -140,7 +140,7 @@ h1, h2, h3, h4 {
     font-weight: 300;
 }
 
-/* Nav Icon styles */
+/* Nav Icon styles - Home */
 .gl-icon-row {
     text-align: center;
     padding-top: 20%;
@@ -153,7 +153,20 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     color: wheat;
 }
-
+/* Nav Icon styles - Page 2 */
+.gl-icon-row-p2 {
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+.gl-nav-icon-p2 {
+    font-size: .75rem;
+    color: wheat;
+}
+.gl-nav-icon-name-p2 {
+    font-size: .75rem;
+    color: wheat;
+}
 
 /* Page 2 - Work History Styles */
 .gl-content-1 {
