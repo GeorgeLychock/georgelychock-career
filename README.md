@@ -305,7 +305,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
             `<a href="/login" class="btn btn--cta-nav btn--red">Download Resume</a>`
         `</div>`
 
--   The skills progress bar code came from Code Institute, User Centric Module, Full Stack Software Deveveloper Program:
+-   The skills progress bar code on the Skill Page came from Code Institute, User Centric Module, Full Stack Software Deveveloper Program:
     Find code use indicated by "CODE REUSE - Skills Progress Bar User Centric Module, Code Institute"
         `<div class="row progress-section">`
            `<div class="col">`
