@@ -21,3 +21,4 @@ This document will be used to capture all project requiremnts as well as feature
 #### Wishlist
 -   ##### Home
     -   change style of "career" in main title.
+    -   Add hover to nav areas
