@@ -10,8 +10,8 @@ This document will be used to capture all project requiremnts as well as feature
 
 
 #### Requirements
-##### Home
--   Download button and connected text should float right (md and higher vireports)
+-    ##### Home
+    -   Download button and connected text should float right (md and higher vireports)
 
 
 
@@ -19,6 +19,5 @@ This document will be used to capture all project requiremnts as well as feature
 
 
 #### Wishlist
-
-##### Home
--   change style of "career" in main title.
+-   ##### Home
+    -   change style of "career" in main title.
