@@ -11,7 +11,7 @@ This document will be used to capture all project requiremnts as well as feature
 
 #### Requirements
 -    ##### Home
-    -   Download button and connected text should float right (md and higher vireports)
+    -   Download button and connected text should float right, md and higher viewports
 
 
 
