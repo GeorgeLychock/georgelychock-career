@@ -22,3 +22,6 @@ This document will be used to capture all project requiremnts as well as feature
 -   ##### Home
     -   change style of "career" in main title.
     -   Add hover to nav areas
+    -   Center social media row
+    -   properly center nav icon row and items
+    
