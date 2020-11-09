@@ -167,13 +167,13 @@ h1, h2, h3, h4 {
 
 /* Nav Icon styles - Page 2 */
 .gl-icon-row-p2 {
-    background-color: whitesmoke;
+    background-color: #d9d9d9;
     text-align: center;
     margin-top: 30px;
 }
 .gl-nav-icon-p2 {
     font-size: .75rem;
-    color: wheat;
+    color: #000;
 }
 .gl-nav-icon-name-p2 {
     font-size: .75rem;
@@ -258,5 +258,12 @@ h1, h2, h3, h4 {
         width: 160px;
         margin-left: 10%;
         margin-bottom: 5px;
+    }
+    .gl-content-1 {
+        margin: 8px;
+    }
+    .gl-content-heading {
+        font-size: 1.5rem;
+        padding: 8px;
     }
    }
