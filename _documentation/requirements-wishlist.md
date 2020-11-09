@@ -11,7 +11,9 @@ This document will be used to capture all project requiremnts as well as feature
 ### Release 1
 #### Requirements
 -    ##### Home
+    -   Apply a responsive structure to execute the wireframe objectives
     -   Download button and connected text should float right, md and higher viewports
+    -   Alt text all links and images
 
 
 
@@ -20,8 +22,9 @@ This document will be used to capture all project requiremnts as well as feature
 
 #### Wishlist
 -   ##### Home
-    -   change style of "career" in main title.
+    -   Change style of "career" in main title.
     -   Add hover to nav areas
     -   Center social media row
-    -   properly center nav icon row and items
+    -   Properly center nav icon row and items
+    -   Restyle social media link color scheme
 
