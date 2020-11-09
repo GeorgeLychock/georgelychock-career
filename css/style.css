@@ -219,11 +219,11 @@ h1, h2, h3, h4 {
     float: right;
 }
 .gl-social-icon {
-    background-color: transparent;
+    background-color: rgba(25, 25, 25, 0.40);
 }
 .gl-social-icon-lg {
-    background-color: transparent;
-    font-size: 2rem;
+    background-color: rgba(25, 25, 25, 0.80);
+    font-size: 1.5rem;
 }
 
 /* @media styles */
