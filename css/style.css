@@ -64,6 +64,9 @@ h1, h2, h3, h4 {
 .text-center {
     text-align: center;
 }
+.float-right {
+    float: right;
+}
 
 /* Navbar styles */
 .gl-navbar-col {
@@ -111,19 +114,18 @@ h1, h2, h3, h4 {
     border-color: #df4929;
     color: white;
 }
-.gl-download-btn {
+.gl-download-btn-text {
     margin-right: 2px;
     color: wheat;
 }
+.gl-download a {
+    float: right;
+    display: inline;
+}
 .gl-home-icon {
     color: #9cf;
-}
-.gl-home-icon{
     margin-left: 6px;
     padding: 5px 10px;
-}
-.gl-home-icon-title{
-    display: inline;
 }
 
 /* Hero styles */
