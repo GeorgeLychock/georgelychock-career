@@ -67,20 +67,32 @@ h1, h2, h3, h4 {
 .float-right {
     float: right;
 }
+.gl-container {
+    margin: 0;
+    padding: 0;
+}
 
 /* Navbar styles */
-.gl-navbar-col {
+.gl-navbar-cont {
     padding: 0;
     margin: 0;
+    background-color: #666;
+    position: relative;
+}
+.gl-navbar-col {
+    height: 40px;
 }
 .gl-navbar {
     padding-left: 9px;
     font-family: 'Raleway', sans-serif;
+    display: inline;
 }
 .gl-navbar a {
     padding: 3px 6px 3px 9px;
     color: wheat;
     text-decoration: none;
+    background-color: #666;
+    margin-top: 20px;
 }
 .gl-navbar a:hover {
     color: whitesmoke;
@@ -114,13 +126,19 @@ h1, h2, h3, h4 {
     border-color: #df4929;
     color: white;
 }
+.btn--cta-nav {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
 .gl-download-btn-text {
     margin-right: 2px;
     color: wheat;
-}
-.gl-download a {
-    float: right;
     display: inline;
+}
+.gl-download {
+    float: right;
+    background-color: #666;
 }
 .gl-home-icon {
     color: #9cf;
@@ -188,11 +206,13 @@ h1, h2, h3, h4 {
 }
 .gl-content-heading {
     font-size: 1.5rem;
-    padding: 2.5% 5%;
+    padding: 10px;
+    width: 100%;
 }
 .gl-content-heading-outter {
     background-color: #000;
     color: wheat;
+    display: block;
 }
 .progress {
     position: relative;
