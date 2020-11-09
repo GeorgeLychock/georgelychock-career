@@ -23,7 +23,8 @@ This document will be used to capture all project requiremnts as well as feature
 #### Wishlist
 -   ##### Home
     -   Change style of "career" in main title.
-    -   Add hover to nav areas
+    -   Adjust a href to include icon wrapper on nav icons, Home
+    -   Add hover to nav icon areas
     -   Center social media row
     -   Properly center nav icon row and items
     -   Restyle social media link color scheme
