@@ -80,7 +80,8 @@ h1, h2, h3, h4 {
     position: relative;
 }
 .gl-navbar-col {
-    height: 40px;
+    height: 60px;
+    padding-top: 10px;
 }
 .gl-navbar {
     padding-left: 9px;
@@ -139,6 +140,7 @@ h1, h2, h3, h4 {
 .gl-download {
     float: right;
     background-color: #666;
+    padding-right: 10px;
 }
 .gl-home-icon {
     color: #9cf;
