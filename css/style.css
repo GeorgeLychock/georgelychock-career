@@ -182,11 +182,11 @@ h1, h2, h3, h4 {
 
 /* Page 2 - Content Area Styles */
 .gl-content-1 {
-    height: 200px;
-    width: 100%;
+    margin: 5% 10%;
 }
 .gl-content-heading {
-
+    font-size: 1.5rem;
+    padding: 2.5% 5%;
 }
 .gl-content-heading-outter {
     background-color: #000;
@@ -208,6 +208,13 @@ h1, h2, h3, h4 {
 }
 .progress-section {
     margin: 40px 20px;
+}
+.gl-work-description {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.gl-work-accomp {
+    padding-left: 20px;
 }
 
 /* Social Link Styles */
