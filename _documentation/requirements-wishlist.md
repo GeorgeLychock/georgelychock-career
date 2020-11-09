@@ -8,7 +8,7 @@
 This document will be used to capture all project requiremnts as well as features and upgrades that will be addressed on future releases. It should be migrated to a knowledge base (Confluence) when access is available.
 
 
-
+### Release 1
 #### Requirements
 -    ##### Home
     -   Download button and connected text should float right, md and higher viewports
@@ -24,4 +24,4 @@ This document will be used to capture all project requiremnts as well as feature
     -   Add hover to nav areas
     -   Center social media row
     -   properly center nav icon row and items
-    
+
