@@ -1,5 +1,5 @@
 /* george lychock career website stylesheet */
-/* NOTES: 1) all custom classes start with "gl-" to better find in the markup */
+/* NOTES: */
 
 
 /* ######## CSS TOC - In Order of Appearance: */
@@ -13,32 +13,7 @@
 /* Page 2 - Work History Styles */
 /* Social Link Styles */
 /* @media styles */
-
-/*NOT USED ......
-/* Heading styles */
-/* Hover.css styles */
-/* Main Content: Home Contact Info styles */
-/* Main Content: Home Personal Info styles */
-/* Main Content: Resume styles */
-/* Main Content: Contact styles */
-/* Container styles */
-/* Jumbotron styles */
-/* Buttons */
-/* Spacer and Divider styles */
 /*########## /CSS TOC */
-
-
-
-/* Thinking about putting a copy of all the color styles here; CLASSES only:
-
-.bg-color-name-title {
-    background-color: #699;
-}
-.bg-color-three-reasons {
-    background-color: #fff;
-}
-etc...
-*/
 
 
 /* Imports */
@@ -49,24 +24,23 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-
-/* Framework Override styles */
-/* Future home of Framework Override styles */
-/* I think framework (Bootstrap) Overides should be kept in one location */
-
 /* Common styles */
 .uppercase {
     text-transform: uppercase;
 }
+
 .lowercase {
     text-transform: lowercase;
 }
+
 .text-center {
     text-align: center;
 }
+
 .float-right {
     float: right;
 }
+
 .gl-container {
     margin: 0;
     padding: 0;
@@ -149,10 +123,10 @@ h1, h2, h3, h4 {
 }
 
 /* Hero styles */
-.gl-hero-image {
-    height: 800px;
-    width: 100%;
+.gl-hero-image-wrapper {
     background: url("../images/hero-bridgewater-milling-machineshop-bw-2200w.jpg") no-repeat center center;
+    margin: 0;
+    padding: 0;
    }
 .gl-hero-title{
     font-family: 'Montserrat', sans-serif;
@@ -168,15 +142,16 @@ h1, h2, h3, h4 {
 /* Nav Icon styles - Home */
 .gl-nav-icon-row {
     padding-top: 10%;
-    text-align: center;
 }
+
 .gl-nav-icon-item {
+    margin-top: 20%;
     padding: 20px 10px;
     background-color: rgba(64, 64, 64, .5);
     border: solid 1px rgba(245, 222, 179, .5);
     border-radius: 5%;
-    width: 170px;
-    margin-left: 25%;
+    text-align: center;
+    height: 150px;
 }
 .gl-nav-icon-item a {
     color: wheat;
@@ -244,24 +219,18 @@ h1, h2, h3, h4 {
 /* Social Link Styles */
 .gl-social-row {
     background-color: transparent;
-    margin-top: 70px;
 }
-.gl-social-ul {
-    float: right;
-}
-.gl-social-icon {
+
+.gl-social-icon, .gl-social-icon-lg {
     background-color: rgba(25, 25, 25, 0.40);
 }
 .gl-social-icon-lg {
-    background-color: rgba(25, 25, 25, 0.80);
     font-size: 1.5rem;
 }
 
 /* @media styles */
 @media only screen and (max-width: 667px) {
-    .gl-hero-image {
-        height: 550px;
-    }
+
     .gl-nav-icon {
         font-size: .75rem;
         color: wheat;
@@ -270,19 +239,7 @@ h1, h2, h3, h4 {
         font-size: .75rem;
         color: wheat;
     }
-    .gl-social-row {
-        background-color: transparent;
-        margin-top: 50px;
-    }
-    .gl-nav-icon-item {
-        padding: 15px 6px;
-        background-color: rgba(64, 64, 64, .5);
-        border: solid 1px rgba(245, 222, 179, .5);
-        border-radius: 5%;
-        width: 160px;
-        margin-left: 10%;
-        margin-bottom: 5px;
-    }
+
     .gl-content-1 {
         margin: 8px;
     }
