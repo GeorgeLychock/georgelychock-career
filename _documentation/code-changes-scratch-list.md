@@ -1,11 +1,11 @@
 ## georgelychock-career.com
-### Requirements and Wishlist Document
+### Code Changes Scratchlist Document
 
 <h1 align="center">George Lychock Career Website</h1>
 
 [View the live project here.](http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html)
 
-This document will be used to capture all project requiremnts as well as features and upgrades that will be addressed on future releases. It should be migrated to a knowledge base (Confluence) when access is available.
+This document will be used to capture all little things I need to fix but don't need to capture in README.md
 
 
 ### Release 1
@@ -15,6 +15,7 @@ This document will be used to capture all project requiremnts as well as feature
     -   Download button and connected text should float right, md and higher viewports
     -   Alt text all links and images
     -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+    -   Change all html comments 'areas' to 'sections'
 
 
 
