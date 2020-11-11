@@ -49,9 +49,9 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Colour Scheme
         -   Most likely using a white main background to give a more professional look as opposed to black or dark colors.
     -   #### Typography
-        -   TBD.
+        -   Two Google fonts, to be determined at design phase.
     -   #### Imagery
-        -   Images will be kept to a minimum, most likely just a hero image of something that corresponds to George's PD or Education. Also, a sidebar image will be used for all secondary pages.
+        -   Images will be kept to a minimum, most likely just a hero image of something that corresponds to George's PD or Education. There will be an image of George on a profile page.
     -   #### Iconography
         -   Use icons in nav elements, social media elements
 
@@ -65,7 +65,6 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 ## Requirements
 -   ### Business Reqs
-    -   #### UX
         -   Smartphone first design; to replicate a native app as closely as possible
         -   Re-work Smartphone UX into a desktop experience
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
@@ -74,7 +73,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
     -   Resume download to be present at top on all screens, all viewports, fixed to top
-    -   Persistent social media icons as footer for all screen, all viewports
+    -   Persistent social media icons in footer for all screens, all viewports
     -   High Level Sitemap:
         -   Home   
             -   Work History
@@ -90,6 +89,7 @@ This is the main career website for George Lychock. It contains all the job, edu
                 -   Edu Item
                 -   Cred Item
                 -   PD Item
+            -   Profile Page
     -   Main Page Sections:
         -   Home
             -   Download Resume Feature
@@ -108,9 +108,22 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Social Media Links
 -   ### Navigation Reqs
     -   Persistent Back button
-    -   ~~Persistent nav header on Smartphone viewports~~ Removed.
-    -   Menu item should have respective icons
+    -   Persistent nav header on Smartphone viewports
+    -   Menu items should have respective icons
+    -   No collaspable nav button on any viewports
+
+
 -   ### Future Reqs
+    -   <Capture furture release reqs here>
+
+### Release 1
+#### Requirements
+-    ##### Home
+    -   Apply a responsive structure to execute the wireframe objectives
+    -   Download button and connected text should float right, md and higher viewports
+    -   Alt text all links and images
+    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+
 
 ## Approved Features and Initial Release Strategy
 
@@ -121,19 +134,17 @@ Release 1
 -   Method to download resume
 -   Design and Apply structure
 -   Define Look and Feel
-
-Release 2
 -   Apply Look and Feel
 -   Method to view my work history
 -   Method to see what I have been working on in Professional Development
-
-Release 3
 -   Method to show education history
 -   Method to show what I work on outside of my main career
-
-Release 4
 -   Method to connect to my github repo
 -   Method to quickly get to my social media sites
+
+Release 2
+-   Add Profile Page to site
+-   Create an About Hero Image modal
 
 
 
