@@ -144,7 +144,8 @@ h1, h2, h3, h4 {
 
 /* Nav Icon styles - Home */
 .gl-nav-icon-row {
-    padding-top: 10%;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .gl-nav-icon-item {
@@ -158,14 +159,16 @@ h1, h2, h3, h4 {
     text-align: center;
     height: 150px;
 }
+
 .gl-nav-icon-item a {
-    color: wheat;
+    color: rgb(232, 155, 0);
     text-decoration: none;
 }
+
 .gl-nav-icon {
     margin-top: 20px;
     font-size: 2rem;
-    color: wheat;
+    color: rgb(232, 232, 114);
 }
 
 /* Nav Icon styles - Page 2 */
@@ -225,38 +228,44 @@ h1, h2, h3, h4 {
 /* Social Link Styles */
 .gl-social-row {
     background-color: rgba(25, 25, 25, 0.60);
-    margin-top: 10%;
-    padding-top: 30px;
-    padding-bottom: 5%;
+    padding-top: 10px;
+    margin-bottom: 5%;
 }
 
 .gl-social-icon, .gl-social-icon-lg {
     background-color: transparent;
 }
-.gl-social-icon {
-    border: solid 1px #f05f40;
+.gl-social-icon a i {
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    margin-top: 5px;
 }
+.gl-social-icon a {
+    color: salmon;
+}
+.gl-social-icon i:hover {
+    background-color: rgba(250, 128, 114, .5);
+}
+
 .gl-social-icon-lg a i {
     font-size: 1.5rem;
-    border: solid 1px #f05f40;
+    background-color: rgba(255, 255, 255, .2);
     border-radius: 50%;
     width: 40px;
     height: 40px;
     text-align: center;
-    padding: 6px 0px;
-    font-size: 1.5rem;
+    padding: 8px;
+}
+.gl-social-icon-lg i:hover {
+    background-color: rgba(0, 85, 250, .5);
 }
 
 /* @media styles */
 @media only screen and (max-width: 667px) {
-
-    .gl-nav-icon-name {
-        font-size: .75rem;
-        color: wheat;
-    }
 
     .gl-content-1 {
         margin: 8px;
@@ -264,5 +273,15 @@ h1, h2, h3, h4 {
     .gl-content-heading {
         font-size: 1.5rem;
         padding: 8px;
+    }
+   }
+   @media only screen and (min-width: 667px) {
+
+    .gl-nav-icon-item a {
+        font-size: 1.25rem;
+    }
+    .gl-nav-icon-row {
+        margin-top: 4rem;
+        margin-bottom: 8rem;
     }
    }
