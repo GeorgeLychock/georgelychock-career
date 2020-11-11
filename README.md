@@ -69,6 +69,7 @@ This is the main career website for George Lychock. It contains all the job, edu
         -   Re-work Smartphone UX into a desktop experience
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
         -   Site navigation needs to be simple, no dropdowns
+        -   Alt text all links and images
 -   ### Structure Reqs
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
@@ -111,18 +112,17 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   Persistent nav header on Smartphone viewports
     -   Menu items should have respective icons
     -   No collaspable nav button on any viewports
+-   ### Social Media Section
+    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+-   ### Home
+    -   Apply a responsive structure to execute the wireframe objectives
+    -   Download button and connected text should float right, md and higher viewports
 
 
 -   ### Future Reqs
     -   Capture furture release reqs here
 
-### Release 1
--   #### Requirements
-    Home
-    -   Apply a responsive structure to execute the wireframe objectives
-    -   Download button and connected text should float right, md and higher viewports
-    -   Alt text all links and images
-    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+
 
 
 ## Approved Features and Initial Release Strategy
