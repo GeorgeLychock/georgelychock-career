@@ -115,7 +115,9 @@ This is the main career website for George Lychock. It contains all the job, edu
 -   ### Social Media Section
     -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
 -   ### Home
-    -   Apply a responsive structure to execute the wireframe objectives
+    -   Use a hero image that is personally connected to George
+    -   Mobile experience will be a single screen with nav icons and no scrolling to add'l content
+    -   Desktop and tablet expiences will have a scrolling Home page with a hero image, nav icon section, social media links section, and a cerifications section
     -   Download button and connected text should float right, md and higher viewports
 
 
