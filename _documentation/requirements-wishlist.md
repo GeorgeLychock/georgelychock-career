@@ -14,6 +14,7 @@ This document will be used to capture all project requiremnts as well as feature
     -   Apply a responsive structure to execute the wireframe objectives
     -   Download button and connected text should float right, md and higher viewports
     -   Alt text all links and images
+    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
 
 
 
