@@ -55,7 +55,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Iconography
         -   Use icons in nav elements, social media elements
 
-*   ### Wireframes
+-   ### Wireframes
 
     -   Desktop Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
 
@@ -114,15 +114,15 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 
 -   ### Future Reqs
-    -   <Capture furture release reqs here>
+    -   Capture furture release reqs here
 
 ### Release 1
-#### Requirements
--    ##### Home
-    -   Apply a responsive structure to execute the wireframe objectives
-    -   Download button and connected text should float right, md and higher viewports
-    -   Alt text all links and images
-    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+-   #### Requirements
+    -    ##### Home
+        -   Apply a responsive structure to execute the wireframe objectives
+        -   Download button and connected text should float right, md and higher viewports
+        -   Alt text all links and images
+        -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
 
 
 ## Approved Features and Initial Release Strategy
