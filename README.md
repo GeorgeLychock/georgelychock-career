@@ -118,11 +118,11 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 ### Release 1
 -   #### Requirements
-    -    ##### Home
-        -   Apply a responsive structure to execute the wireframe objectives
-        -   Download button and connected text should float right, md and higher viewports
-        -   Alt text all links and images
-        -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+    Home
+    -   Apply a responsive structure to execute the wireframe objectives
+    -   Download button and connected text should float right, md and higher viewports
+    -   Alt text all links and images
+    -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
 
 
 ## Approved Features and Initial Release Strategy
