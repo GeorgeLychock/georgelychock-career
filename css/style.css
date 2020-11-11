@@ -87,6 +87,7 @@ h1, h2, h3, h4 {
 }
 .gl-banner-col {
     margin: 0;
+    text-decoration: none;
 }
 .gl-banner-col a {
     color: whitesmoke;
@@ -144,31 +145,32 @@ h1, h2, h3, h4 {
 
 /* Nav Icon styles - Home */
 .gl-nav-icon-row {
-    margin-top: 2rem;
-    margin-bottom: 4rem;
+    margin-top: 1.75rem;
+    padding-bottom: 3rem;
 }
 
 .gl-nav-icon-item {
-    margin-top: 20%;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
     padding: 20px 10px;
     background-color: rgba(64, 64, 64, .5);
-    border: solid 1px rgba(245, 222, 179, .5);
+    border: solid 1px rgba(0, 0, 0, .5);
     border-radius: 5%;
     text-align: center;
-    height: 150px;
+    height: 125px;
+    font-size: .9rem;
 }
 
 .gl-nav-icon-item a {
-    color: rgb(232, 155, 0);
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .gl-nav-icon {
     margin-top: 20px;
-    font-size: 2rem;
-    color: rgb(232, 232, 114);
+    font-size: 1.25rem;
+    color: wheat;
 }
 
 /* Nav Icon styles - Page 2 */
@@ -228,13 +230,16 @@ h1, h2, h3, h4 {
 /* Social Link Styles */
 .gl-social-row {
     background-color: rgba(25, 25, 25, 0.60);
-    padding-top: 10px;
     margin-bottom: 5%;
+    padding-bottom: 25%;
+    padding-top: 10px;
 }
 
 .gl-social-icon, .gl-social-icon-lg {
     background-color: transparent;
+    border: none;
 }
+
 .gl-social-icon a i {
     background-color: rgba(255, 255, 255, .2);
     border-radius: 50%;
@@ -244,6 +249,7 @@ h1, h2, h3, h4 {
     padding: 6px 0;
     margin-top: 5px;
 }
+
 .gl-social-icon a {
     color: salmon;
 }
@@ -276,12 +282,23 @@ h1, h2, h3, h4 {
     }
    }
    @media only screen and (min-width: 667px) {
+   
+    .gl-hero-title-heading {
+        font-size: 4rem;
+    }
+    .gl-hero-title p {
+        font-size: 1.5rem;
+    }
 
     .gl-nav-icon-item a {
         font-size: 1.25rem;
     }
     .gl-nav-icon-row {
         margin-top: 4rem;
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
+    }
+    .gl-nav-icon-item {
+        margin-top: 20%;
+        height: 150px;
     }
    }
