@@ -67,6 +67,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 -   ### Business Reqs
         -   Smartphone first design; to replicate a native app as closely as possible
         -   Re-work Smartphone UX into a desktop experience
+        -   Smartphone experience should be substantially different than desktop, yet retain many of the elements and content reuse.
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
         -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
 -   ### Structure Reqs
