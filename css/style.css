@@ -12,6 +12,10 @@
 /* Nav Icon styles */
 /* Page 2 - Work History Styles */
 /* Social Link Styles */
+/* Profile Section Styles */
+/* Home Site Links Section Styles */
+/* Home Social Links Section Styles */
+/* Home Home Footer Section Styles */
 /* @media styles */
 /*########## /CSS TOC */
 
@@ -270,6 +274,31 @@ h1, h2, h3, h4 {
     background-color: rgba(0, 85, 250, .5);
 }
 
+/* Profile Section Styles */
+.gl-home-profile-wrapper {
+    height: 250px;
+    background-color: wheat;
+    padding: 0;
+    text-align: center;
+}
+
+/* Home Site Links Section Styles */
+.gl-home-site-links-wrapper {
+    padding: 0;
+    height: 250px;
+}
+
+/* Home Social Links Section Styles */
+.gl-home-social-wrapper {
+    padding: 0;
+    height: 80px;
+}
+
+/* Home Home Footer Section Styles */
+.gl-home-footer-wrapper {
+    padding: 0;
+}
+
 /* @media styles */
 @media only screen and (max-width: 667px) {
 
@@ -282,23 +311,47 @@ h1, h2, h3, h4 {
     }
    }
    @media only screen and (min-width: 667px) {
+    body {
+        background-color: #fff;
+    }
    
+    .gl-hero-image-wrapper {
+        height: 600px;
+    }
+
     .gl-hero-title-heading {
         font-size: 4rem;
     }
+
     .gl-hero-title p {
         font-size: 1.5rem;
     }
 
+    .gl-nav-icon-row {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .gl-nav-icon-item {
+        margin-top: 10px;
+        height: 150px;
+        border: none;
+        background-color: white;
+    }
     .gl-nav-icon-item a {
+        color: #000;
         font-size: 1.25rem;
     }
-    .gl-nav-icon-row {
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+    .gl-nav-icon {
+        margin-top: 20px;
+        font-size: 2rem;
+        color: wheat;
     }
-    .gl-nav-icon-item {
-        margin-top: 20%;
-        height: 150px;
+    .gl-social-row {
+        margin-bottom: 0;
+        padding-bottom: 0;
+        padding-top: 5px;
     }
    }

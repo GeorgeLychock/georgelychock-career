@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- Nav -->
+    <!-- Nav Section - Desktop/Tablet Only-->
     <div class="container-fluid gl-navbar-cont">
         <div class="row no-gutters d-none d-md-block">
             <div class="col gl-navbar-col">
@@ -32,8 +32,8 @@
             </div>
         </div>
     </div>
-    <!-- /Nav -->
-    <!-- Banner Area -->
+    <!-- /Nav Section - Desktop/Tablet Only-->
+    <!-- Banner Section - Smartphone Only -->
     <section>
         <div class="container-fluid">
         <div class="row d-md-none no-gutters gl-banner-row fixed-top">
@@ -44,11 +44,11 @@
         </div>
         </div>
     </section>
-    <!-- /Banner Area -->
-    <!-- Hero Area -->
+    <!-- /Banner Section - Smartphone Only -->
+    <!-- Hero Section -->
     <section>
         <div class="container-fluid gl-hero-image-wrapper">
-            <!-- Title Area -->
+            <!-- Title Section -->
             <div class="row no-gutters">
                 <div class="col">
                     <div class="gl-hero-title">
@@ -57,9 +57,9 @@
                     </div>
                 </div>
             </div>
-            <!-- /Title Area -->
-            <!-- Nav Icon Area - for Smartphone Only -->
-            <div class="row no-gutters gl-nav-icon-row">
+            <!-- /Title Section -->
+            <!-- Nav Icon Section - for Smartphone Only -->
+            <div class="row no-gutters d-md-none gl-nav-icon-row">
                 <div class="col-6 col-md-3">
                     <div class="gl-nav-icon-item">
                         <a href="pages/workhistory.html">Work<br>History<br>
@@ -91,7 +91,7 @@
             </div>
             <!-- /Nav Icon Section for Smartphone Only-->
             <!-- Social Links Section  for Smartphone Only-->
-            <div class="row no-gutters gl-social-row">
+            <div class="row no-gutters d-md-none gl-social-row">
                 <div class="col">
                     <ul class="list-group list-group-horizontal float-right">
                         <li class="list-group-item gl-social-icon-lg">
@@ -131,10 +131,107 @@
         </div>
     </section>
     <!-- /Hero Sections -->
-    <!-- Desktop/Tablet Home Sub Sections -->
-
-
-
+    <!-- Desktop/Tablet Home Sub Sections - Main Site Links (Nav) -->
+    <section>
+        <div class="container-fluid d-none d-md-block gl-home-site-links-wrapper">
+            <div class="row no-gutters gl-nav-icon-row">
+                <div class="col-6 col-md-3">
+                    <div class="gl-nav-icon-item">
+                        <a href="pages/workhistory.html">Work<br>History<br>
+                            <i class="fas fa-list gl-nav-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gl-nav-icon-item">
+                        <a href="pages/skills.html">Skills<br>Career Focus<br>
+                            <i class="far fa-lightbulb gl-nav-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gl-nav-icon-item">
+                        <a href="pages/portfolio.html">Portfolio and <br>Projects<br>
+                            <i class="fas fa-briefcase gl-nav-icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="gl-nav-icon-item">
+                        <a href="pages/education.html">Education and <br>Cerfificates<br>
+                            <i class="fas fa-graduation-cap gl-nav-icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Desktop/Tablet Home Sub Sections - Main Site Links (Nav) -->
+    <!-- Desktop/Tablet Home Sub Sections - Profile Section -->
+    <div class="container-fluid d-none d-md-block gl-home-profile-wrapper">
+        <div class="row no-gutters">
+            <div class="col-4">
+                <p>this is where my image goes</p>
+            </div>
+            <div class="col-4">
+                this is where my contact info goes
+            </div>
+            <div class="col-4">
+                this is where my profile links go
+            </div>
+        </div>
+    </div>
+    <!-- /Desktop/Tablet Home Sub Sections - Profile Section -->
+    <!-- Desktop/Tablet Home Sub Sections - Social Media Links -->
+    <div class="container-fluid d-none d-md-block gl-home-social-wrapper">
+        <div class="row no-gutters gl-social-row">
+            <div class="col">
+                <ul class="list-group list-group-horizontal float-right">
+                    <li class="list-group-item gl-social-icon-lg">
+                        <a class="align-middle" target="_blank" href="https://www.linkedin.com/in/georgelychock">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon-lg">
+                        <a class="align-middle" target="_blank" href="https://github.com/GeorgeLychock">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">GitHUb</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://www.pinterest.com/georgelychock/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://twitter.com/glychock?lang=en">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://www.facebook.com/george.lychock">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Desktop/Tablet Home Sub Sections - Social Media Links -->
+    <!-- Desktop/Tablet Home Sub Sections - Footer -->
+    <div class="container-fluid d-none d-md-block gl-home-footer-wrapper">
+        <div class="row no-gutters">
+            <div class="col">
+                <p>george lychock - career | copyright &copy; 2020</p>
+                <p>this site is based on bootstrap 4 &trade;</p>
+            </div>
+        </div>
+    </div>
+    <!-- Desktop/Tablet Home Sub Sections - Footer -->
 
 
 
