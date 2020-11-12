@@ -68,8 +68,7 @@ This is the main career website for George Lychock. It contains all the job, edu
         -   Smartphone first design; to replicate a native app as closely as possible
         -   Re-work Smartphone UX into a desktop experience
         -   wireframes for both scenarios need to be approved prior to prod dev (dev can spend up to 5% of BP budget prior to approval)
-        -   Site navigation needs to be simple, no dropdowns
-        -   Alt text all links and images
+        -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
 -   ### Structure Reqs
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
@@ -107,6 +106,8 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Nav (to Content Area Landing Pages eg Work History)
             -   Content Item, Long Description
             -   Social Media Links
+-   ### General Requirements
+        -   Alt text all links and images
 -   ### Navigation Reqs
     -   Persistent Back button
     -   Persistent nav header on Smartphone viewports
@@ -119,6 +120,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   Mobile experience will be a single screen with nav icons and no scrolling to add'l content
     -   Desktop and tablet expiences will have a scrolling Home page with a hero image, nav icon section, social media links section, and a cerifications section
     -   Download button and connected text should float right, md and higher viewports
+    -   A My Profile link should float right with the Resume link on the smartphone top banner area
 
 
 -   ### Future Reqs
