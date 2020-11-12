@@ -287,6 +287,13 @@ h1, h2, h3, h4 {
     padding: 0;
     text-align: center;
 }
+.gl-home-my-profile-row {
+    padding-top: 40px;
+}
+
+.gl-home-profile-img img {
+    height: 250px;
+}
 
 /* Home Site Links Section Styles */
 .gl-home-site-links-wrapper {
@@ -352,7 +359,7 @@ h1, h2, h3, h4 {
     }
     .gl-nav-icon {
         margin-top: 20px;
-        font-size: 2rem;
+        font-size: 3rem;
         color: wheat;
     }
     .gl-social-row {
