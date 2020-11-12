@@ -89,6 +89,9 @@ h1, h2, h3, h4 {
     margin-left: 6px;
     color: #fff;
 }
+.gl-profile-icon {
+    color: whitesmoke;
+}
 .gl-banner-col {
     margin: 0;
     text-decoration: none;
@@ -272,6 +275,9 @@ h1, h2, h3, h4 {
 }
 .gl-social-icon-lg i:hover {
     background-color: rgba(0, 85, 250, .5);
+}
+.gl-cr {
+    color: whitesmoke;
 }
 
 /* Profile Section Styles */
