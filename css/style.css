@@ -282,17 +282,29 @@ h1, h2, h3, h4 {
 
 /* Profile Section Styles */
 .gl-home-profile-wrapper {
-    height: 250px;
-    background-color: wheat;
+    height: 350px;
+    background-color: #000;
     padding: 0;
     text-align: center;
 }
-.gl-home-my-profile-row {
-    padding-top: 40px;
+
+.gl-home-my-profile-content {
+    padding-top: 20px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.gl-home-my-profile-heading {
+    padding-top: 20px;
+    color: whitesmoke;
 }
 
 .gl-home-profile-img img {
     height: 250px;
+}
+
+.gl-home-my-profile-address {
+    padding-left: 40px;
 }
 
 /* Home Site Links Section Styles */
@@ -345,6 +357,8 @@ h1, h2, h3, h4 {
         padding-top: 1rem;
         margin-bottom: 2rem;
         padding-bottom: 1rem;
+        margin-left: 150px;
+        margin-right: 150px;
     }
 
     .gl-nav-icon-item {
