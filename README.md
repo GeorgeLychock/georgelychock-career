@@ -124,8 +124,10 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   A My Profile link should float right with the Resume link on the smartphone top banner area
 
 
--   ### Future Reqs
-    -   Capture furture release reqs here
+*   ### Future Reqs
+    *   *Capture furture release reqs here*
+    *   Address responsibility issues with tablet viewports
+    *   Add a "About Hero Image" modal or link to page ref
 
 
 
