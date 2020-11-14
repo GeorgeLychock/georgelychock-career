@@ -13,6 +13,7 @@
 /* Page 2 - Work History Styles */
 /* Social Link Styles */
 /* Profile Section Styles */
+/* Home Credentials Section Styles */
 /* Home Site Links Section Styles */
 /* Home Social Links Section Styles */
 /* Home Home Footer Section Styles */
@@ -295,8 +296,8 @@ h1, h2, h3, h4 {
 }
 
 .gl-home-my-profile-heading {
-    padding-top: 20px;
-    color: whitesmoke;
+    padding-top: 40px;
+    color: wheat;
 }
 
 .gl-home-profile-img img {
@@ -305,6 +306,47 @@ h1, h2, h3, h4 {
 
 .gl-home-my-profile-address {
     padding-left: 40px;
+}
+
+/* Home Credentials Section Styles */
+.gl-home-creds-container {
+    background-color: #f9ebd2;
+}
+
+.gl-home-creds-wrapper {
+    height: 200px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gl-home-my-creds-heading {
+    padding-top: 40px;
+    color: #000;
+    text-align: center;
+}
+
+.gl-home-creds-item {
+    padding-top: 10px;
+}
+
+.gl-home-creds-title {
+    margin-top: 5px;
+}
+
+.gl-home-creds-title-2 {
+    margin-top: 25px;
+}
+
+.gl-home-creds-img img {
+    height: 50px;
+}
+
+.gl-home-creds-img-2 img {
+    height: 30px;
+}
+
+.gl-home-creds-desc {
+    font-size: .75rem;
 }
 
 /* Home Site Links Section Styles */
