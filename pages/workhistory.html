@@ -12,77 +12,83 @@
 </head>
 
 <body>
-    <!-- Nav -->
-    <div class="container-fluid gl-navbar-cont">
+    <!-- Nav Section - Desktop/Tablet Only-->
+    <div class="container-fluid gl-navbar-wrapper">
         <div class="row no-gutters d-none d-md-block">
             <div class="col gl-navbar-col">
                 <nav class="gl-navbar">
-                    <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
-                    <a href="skills.html">Skills</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="education.html">Education</a>
+                    <a href="pages/workhistory.html">Work History</a>
+                    <a href="pages/skills.html">Skills</a>
+                    <a href="pages/portfolio.html">Portfolio</a>
+                    <a href="pages/education.html">Education</a>
                 </nav>
                 <!-- CODE REUSE - Download Button User Centric Module, Code Institute -->
                 <div class="gl-download">
                     <p class="gl-download-btn-text"><i>View My Most Recently Published Resume</i></p>
-                    <a href="../content/georgelychockresume_pub.pdf" target="_blank"
+                    <a href="content/georgelychockresume_pub.pdf" target="_blank"
                         class="btn btn--cta-nav btn--red">Resume</a>
                 </div>
                 <!-- /CODE REUSE - Download Button User Centric Module, Code Institute -->
             </div>
         </div>
     </div>
-    <!-- /Nav -->
-    <!-- Banner Area - Page 1 -->
-    <div class="row d-md-none no-gutters gl-banner-row fixed-top">
-        <!-- Home Button -->
-        <div class="col gl-banner-col">
-            <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
-        </div>
-        <!-- /Home Button -->
-        <!-- Download Resume Button -->
-        <div class="col gl-banner-col">
-            <div class="gl-pdf-icon"><i class="far fa-file-pdf" aria-hidden="true"></i></div>
-            <a href="../content/georgelychockresume_pub.pdf" target="_blank">View Resume</a>
-        </div>
-        <!-- /Download Resume Button -->
-    </div>
-    <!-- /Banner Area - Page 1 -->
-    <!-- Nav Icon Area -->
-    <div class="row d-md-none no-gutters gl-icon-row-p2">
-        <div class="col-3">
-            <div class="gl-nav-icon-name-p2">
-                <a href="workhistory.html">Work</a>
+    <!-- /Nav Section - Desktop/Tablet Only-->
+    <!-- Banner Area - Smartphone Only - Page Level 1 -->
+    <section>
+        <div class="container-fluid">
+            <div class="row d-md-none no-gutters fixed-top gl-banner-row">
+                <div class="col gl-banner-col">
+                    <!-- Home Button -->
+                    <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
+                    <!-- Download Resume Button -->
+                    <div class="gl-pdf-icon"><i class="far fa-file-pdf" aria-hidden="true"></i></div>
+                    <a href="../content/georgelychockresume_pub.pdf" target="_blank">View Resume</a>
+                    <!-- Profile Button -->
+                    <div class="float-right d-inline">
+                        <a href="#" target="_blank">My Profile</a>
+                        <div class="gl-profile-icon d-inline"><i class="fas fa-user" aria-hidden="true"></i></div>
+                    </div>
+                    <!-- /Profile Button -->
+                </div>
+                <div class="gl-banner-heading lowercase">George Lychock - Work History</div>
             </div>
-            <div class="gl-nav-icon-p2"><i class="fas fa-list"></i></div>
         </div>
-        <div class="col-3">
-            <div class="gl-nav-icon-name-p2">
-                <a href="skills.html">Skills</a>
+    </section>
+    <!-- /Banner Area - Smartphone Only - Page 1 -->
+    <!-- Nav Icon Area - Smartphone Only -->
+    <section>
+        <div class="container-fluid gl-nav-icon-wrapper">
+            <div class="row d-md-none no-gutters gl-icon-row-p2">
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="workhistory.html">Work</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-list"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="skills.html">Skills</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="far fa-lightbulb"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-briefcase"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="education.html">Education</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-graduation-cap"></i></div>
+                </div>
             </div>
-            <div class="gl-nav-icon-p2"><i class="far fa-lightbulb"></i></div>
         </div>
-        <div class="col-3">
-            <div class="gl-nav-icon-name-p2">
-                <a href="portfolio.html">Portfolio</a>
-            </div>
-            <div class="gl-nav-icon-p2"><i class="fas fa-briefcase"></i></div>
-        </div>
-        <div class="col-3">
-            <div class="gl-nav-icon-name-p2">
-                <a href="education.html">Education</a>
-            </div>
-            <div class="gl-nav-icon-p2"><i class="fas fa-graduation-cap"></i></div>
-        </div>
-    </div>
-    <!-- /Nav Icon Area -->
+    </section>
+    <!-- /Nav Icon Area - Smartphone Only -->
     <!-- Content Area -->
-    <div class="container-fluid gl-container">
-        <div class="row no-gutters gl-content-heading-outter">
-            <div class="col">
-                <div class="gl-content-heading lowercase">George Lychock - Work History</div>
-            </div>
-        </div>
+    <div class="container-fluid gl-content-container">
         <div class="row no-gutters">
             <div class="col col-md-8 gl-content-1">
                 <h4>Project Manager</h4>

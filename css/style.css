@@ -49,27 +49,31 @@ h1, h2, h3, h4 {
     float: right;
 }
 
-.gl-container {
+.gl-content-container {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 /* Navbar styles */
-.gl-navbar-cont {
+.gl-navbar-wrapper {
     padding: 0;
     margin: 0;
     background-color: #666;
     position: relative;
 }
+
 .gl-navbar-col {
     height: 60px;
     padding-top: 10px;
 }
+
 .gl-navbar {
     padding-left: 9px;
     font-family: 'Raleway', sans-serif;
     display: inline;
 }
+
 .gl-navbar a {
     padding: 3px 6px 3px 9px;
     color: wheat;
@@ -79,6 +83,27 @@ h1, h2, h3, h4 {
 }
 .gl-navbar a:hover {
     color: whitesmoke;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
+.btn--cta-nav {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
 }
 
 /* Banner styles */
@@ -100,24 +125,13 @@ h1, h2, h3, h4 {
 .gl-banner-col a {
     color: whitesmoke;
 }
-.btn--red {
-    color: white;
-    background-color: #f05f40;
-    border-color: #f05f40;
+.gl-banner-heading {
+    font-size: .75rem;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
 }
-.btn--red:hover,
-.btn--red:active,
-.btn--red:focus,
-.btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
-    color: white;
-}
-.btn--cta-nav {
-    font-weight: bold;
-    border-radius: 23px;
-    width: 160px;
-}
+
 .gl-download-btn-text {
     margin-right: 2px;
     color: wheat;
@@ -182,10 +196,15 @@ h1, h2, h3, h4 {
 }
 
 /* Nav Icon styles - Page 2 */
+.gl-nav-icon-wrapper {
+    padding: 0;
+    margin: 0;
+}
+
 .gl-icon-row-p2 {
     background-color: #d9d9d9;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 .gl-nav-icon-p2 {
     font-size: .75rem;
@@ -196,7 +215,11 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Page 2 - Content Area Styles */
+/* Page Level 1 - Content Area Styles */
+
+
+
+/* Page Level 2 - Content Area Styles */
 .gl-content-1 {
     margin: 5% 10%;
 }
