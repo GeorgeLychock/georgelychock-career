@@ -128,6 +128,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     *   *Capture furture release reqs here*
     *   Address responsibility issues with tablet viewports
     *   Add a "About Hero Image" modal or link to page ref
+    *   Add a timeline graphic to the Work History page
 
 
 
@@ -259,24 +260,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
-
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   On tablet viewports the Credentials Section overflows on the Home page.
 
 ## Deployment
 
-### GitHub Pages
+### Project Folder Structure
+-   All secondary html pages are located in the <pages/> folder.
+-   All images are located in the <images/> folder
+-   Any document content (eg resume pdf) is located in the <content/> folder
+-   The <css/> folder is located directly off the root folder
 
-The project was deployed to GitHub Pages using the following steps...
+### Hosting www.georgelychock-caree.com
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+The project was deployed to my hosting service:
+
+1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/workhistory.html
+2. All files were uploaded via FileZilla FTP.
 
 ### Forking the GitHub Repository
 
