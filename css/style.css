@@ -4,27 +4,30 @@
 
 /* ######## CSS TOC - In Order of Appearance: */
 /* @imports */
-/* Base Element styles */
-/* Common styles */
-/* Navbar styles */
-/* Banner styles */
-/* Hero styles */
-/* Nav Icon styles */
-/* Page 2 - Work History Styles */
-/* Social Link Styles */
-/* Profile Section Styles */
-/* Home Credentials Section Styles */
-/* Home Site Links Section Styles */
-/* Home Social Links Section Styles */
-/* Home Home Footer Section Styles */
-/* @media styles */
+/* Base Element */
+/* Common */
+/* Navbar */
+/* Banner */
+/* Hero */
+/* Nav Icon Home */
+/* Work History */
+/* Skills */
+/* Profile */
+/* Page 2 - Work History */
+/* Social Link */
+/* Profile Section */
+/* Home Credentials Section */
+/* Home Site Links Section */
+/* Home Social Links Section */
+/* Home Home Footer Section */
+/* @media */
 /*########## /CSS TOC */
 
 
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap');
 
-/* Base Element styles */
+/* Base Element */
 body {
     background-color: #000;
 }
@@ -32,7 +35,7 @@ h1, h2, h3, h4 {
     margin: 0;
 }
 
-/* Common styles */
+/* Common */
 .uppercase {
     text-transform: uppercase;
 }
@@ -60,7 +63,7 @@ h1, h2, h3, h4 {
     padding: 0;
 }
 
-/* Navbar styles */
+/* Navbar */
 .gl-navbar-wrapper {
     padding: 0;
     margin: 0;
@@ -114,7 +117,7 @@ h1, h2, h3, h4 {
     width: 160px;
 }
 
-/* Banner styles */
+/* Banner */
 .gl-banner-row {
     background-color: #000;
 }
@@ -156,7 +159,7 @@ h1, h2, h3, h4 {
     padding: 5px 10px;
 }
 
-/* Hero styles */
+/* Hero */
 .gl-hero-image-wrapper {
     background: url("../images/hero-bridgewater-milling-machineshop-bw-2200w.jpg") no-repeat center center;
     margin: 0;
@@ -173,7 +176,7 @@ h1, h2, h3, h4 {
     font-weight: 300;
 }
 
-/* Nav Icon styles - Home */
+/* Nav Icon - Home */
 .gl-nav-icon-row {
     margin-top: 1.75rem;
     padding-bottom: 3rem;
@@ -203,7 +206,7 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Nav Icon styles - Page 2 */
+/* Nav Icon - Page 2 */
 .gl-nav-icon-wrapper {
     padding: 0;
     margin: 0;
@@ -265,6 +268,33 @@ h1, h2, h3, h4 {
     font-size: 1.25rem;
     padding: 10px;
     width: 100%;
+}
+
+/* Profile */
+.gl-profile-wrapper {
+    background-color: #000;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.gl-profile-heading {
+    padding: 20px 0;
+    color: wheat;
+}
+
+.gl-profile-content {
+    padding-top: 20px;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.gl-profile-address {
+    padding-left: 20px;
+}
+
+.gl-profile-img img {
+    height: 250px;
 }
 
 /* Page Level 2 - Content Area */
@@ -347,13 +377,13 @@ h1, h2, h3, h4 {
     text-align: center;
 }
 
-.gl-home-my-profile-content {
+.gl-home-profile-content {
     padding-top: 20px;
     color: whitesmoke;
     text-align: left;
 }
 
-.gl-home-my-profile-heading {
+.gl-home-profile-heading {
     padding-top: 40px;
     color: wheat;
 }
@@ -362,7 +392,7 @@ h1, h2, h3, h4 {
     height: 250px;
 }
 
-.gl-home-my-profile-address {
+.gl-home-profile-address {
     padding-left: 40px;
 }
 
