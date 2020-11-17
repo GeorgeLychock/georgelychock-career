@@ -55,6 +55,11 @@ h1, h2, h3, h4 {
     background-color: white;
 }
 
+.gl-container {
+    margin: 0;
+    padding: 0;
+}
+
 /* Navbar styles */
 .gl-navbar-wrapper {
     padding: 0;
@@ -215,14 +220,23 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Page Level 1 - Content Area Styles */
-
-
-
-/* Page Level 2 - Content Area Styles */
+/* Page Level 1 - Content Area */
 .gl-content-1 {
-    margin: 5% 10%;
+    margin: 8px;
 }
+
+/* Work History */
+.gl-work-description {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+.gl-work-accomp {
+    padding-left: 20px;
+}
+
+
+/* Page Level 2 - Content Area */
+
 .gl-content-heading {
     font-size: 1.5rem;
     padding: 10px;
@@ -250,13 +264,7 @@ h1, h2, h3, h4 {
 .progress-section {
     margin: 40px 20px;
 }
-.gl-work-description {
-    padding-left: 20px;
-    margin-top: 10px;
-}
-.gl-work-accomp {
-    padding-left: 20px;
-}
+
 
 /* Social Link Styles */
 .gl-social-row {
@@ -289,13 +297,13 @@ h1, h2, h3, h4 {
 }
 
 .gl-social-icon-lg a i {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     background-color: rgba(255, 255, 255, .2);
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     text-align: center;
-    padding: 8px;
+    padding: 8px 4px;
 }
 .gl-social-icon-lg i:hover {
     background-color: rgba(0, 85, 250, .5);
@@ -392,9 +400,6 @@ h1, h2, h3, h4 {
 /* @media styles */
 @media only screen and (max-width: 667px) {
 
-    .gl-content-1 {
-        margin: 8px;
-    }
     .gl-content-heading {
         font-size: 1.5rem;
         padding: 8px;
@@ -432,18 +437,40 @@ h1, h2, h3, h4 {
         border: none;
         background-color: white;
     }
+
     .gl-nav-icon-item a {
         color: #000;
         font-size: 1.25rem;
     }
+
     .gl-nav-icon {
         margin-top: 20px;
         font-size: 3rem;
         color: wheat;
     }
+
+    .gl-content-container {
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .gl-content-1 {
+        margin-top: 30px;
+    }
+
     .gl-social-row {
         margin-bottom: 0;
         padding-bottom: 0;
         padding-top: 5px;
+    }
+
+    .gl-social-icon-lg a i {
+        font-size: 1.5rem;
+        background-color: rgba(255, 255, 255, .2);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        padding: 8px;
     }
    }
