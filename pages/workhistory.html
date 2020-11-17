@@ -12,21 +12,22 @@
 </head>
 
 <body>
-    <!-- Nav Section - Desktop/Tablet Only-->
-    <div class="container-fluid gl-navbar-wrapper">
+     <!-- Nav Section - Desktop/Tablet Only-->
+     <div class="container-fluid gl-navbar-wrapper">
         <div class="row no-gutters d-none d-md-block">
             <div class="col gl-navbar-col">
                 <nav class="gl-navbar">
                     <a href="../index.html">Home</a>
-                    <a href="workhistory.html">Work History</a>
-                    <a href="skills.html">Skills</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="education.html">Education</a>
+                    <a href="pages/profile.html">Profile</a>
+                    <a href="pages/workhistory.html">Work History</a>
+                    <a href="pages/skills.html">Skills</a>
+                    <a href="pages/portfolio.html">Portfolio</a>
+                    <a href="pages/education.html">Education</a>
                 </nav>
                 <!-- CODE REUSE - Download Button User Centric Module, Code Institute -->
                 <div class="gl-download">
                     <p class="gl-download-btn-text"><i>View My Most Recently Published Resume</i></p>
-                    <a href="../content/georgelychockresume_pub.pdf" target="_blank"
+                    <a href="content/georgelychockresume_pub.pdf" target="_blank"
                         class="btn btn--cta-nav btn--red">Resume</a>
                 </div>
                 <!-- /CODE REUSE - Download Button User Centric Module, Code Institute -->
@@ -89,6 +90,11 @@
     </section>
     <!-- /Nav Icon Area - Smartphone Only -->
     <!-- Content Area -->
+    <div class="container-fluid d-none d-md-block gl-contentheading-wrap">
+        <div class="row no-gutters">
+            <div class="gl-content-heading lowercase">George Lychock - Work History</div>
+        </div>
+    </div>
     <div class="container-fluid gl-content-container">
         <div class="row no-gutters">
             <div class="col gl-content-1">
@@ -194,7 +200,7 @@
     <div class="container-fluid gl-container">
         <div class="row no-gutters gl-social-row">
             <div class="col">
-                <ul class="list-group list-group-horizontal float-right gl-social-ul">
+                <ul class="list-group list-group-horizontal float-right">
                     <li class="list-group-item  gl-social-icon-lg">
                         <a target="_blank" href="https://www.linkedin.com/in/georgelychock">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
@@ -208,22 +214,21 @@
                         </a>
                     </li>
                     <li class="list-group-item gl-social-icon">
-                        <a target="_blank" href="https://www.georgelychock.com/">
-                            <img src="../images/gl-com-logo-01.png" alt="george lychock's wordpress website"
-                                height="30px">
-                            <span class="sr-only">georgelychock.com</span>
-                        </a>
-                    </li>
-                    <li class="list-group-item gl-social-icon">
-                        <a target="_blank" href="https://www.pinterest.com/georgelychock/">
+                        <a class="align-middle" target="_blank" href="https://www.pinterest.com/georgelychock/">
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                             <span class="sr-only">Pinterest</span>
                         </a>
                     </li>
                     <li class="list-group-item gl-social-icon">
-                        <a target="_blank" href="https://twitter.com/glychock?lang=en">
+                        <a class="align-middle" target="_blank" href="https://twitter.com/glychock?lang=en">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://www.facebook.com/george.lychock">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                 </ul>

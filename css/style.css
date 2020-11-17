@@ -227,6 +227,16 @@ h1, h2, h3, h4 {
 .gl-content-1 {
     margin: 8px;
 }
+.gl-content-heading {
+    font-size: 3rem;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+}
+
+.gl-contentheading-wrap {
+    background-color: #aaa;
+}
 
 /* Work History */
 .gl-work-description {
@@ -237,14 +247,8 @@ h1, h2, h3, h4 {
     padding-left: 20px;
 }
 
-
 /* Page Level 2 - Content Area */
 
-.gl-content-heading {
-    font-size: 1.5rem;
-    padding: 10px;
-    width: 100%;
-}
 .gl-content-heading-outter {
     background-color: #000;
     color: wheat;
@@ -401,13 +405,6 @@ h1, h2, h3, h4 {
 }
 
 /* @media styles */
-@media only screen and (max-width: 667px) {
-
-    .gl-content-heading {
-        font-size: 1.5rem;
-        padding: 8px;
-    }
-   }
    @media only screen and (min-width: 667px) {
     body {
         background-color: #fff;
