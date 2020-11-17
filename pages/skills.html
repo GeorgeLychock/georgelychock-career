@@ -12,96 +12,131 @@
 </head>
 
 <body>
-    <!-- Nav -->
-    <div class="container-fluid gl-navbar-cont">
+     <!-- Nav Section - Desktop/Tablet Only-->
+     <div class="container-fluid gl-navbar-wrapper">
         <div class="row no-gutters d-none d-md-block">
             <div class="col gl-navbar-col">
                 <nav class="gl-navbar">
-                    <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
+                    <a href="../index.html">Home</a>
+                    <a href="profile.html">Profile</a>
                     <a href="workhistory.html">Work History</a>
+                    <a href="skills.html">Skills</a>
                     <a href="portfolio.html">Portfolio</a>
                     <a href="education.html">Education</a>
                 </nav>
                 <!-- CODE REUSE - Download Button User Centric Module, Code Institute -->
                 <div class="gl-download">
                     <p class="gl-download-btn-text"><i>View My Most Recently Published Resume</i></p>
-                    <a href="../content/georgelychockresume_pub.pdf" target="_blank"
+                    <a href="content/georgelychockresume_pub.pdf" target="_blank"
                         class="btn btn--cta-nav btn--red">Resume</a>
                 </div>
                 <!-- /CODE REUSE - Download Button User Centric Module, Code Institute -->
             </div>
         </div>
     </div>
-    <!-- /Nav -->
-    <!-- Banner Area - Page 1 -->
+    <!-- /Nav Section - Desktop/Tablet Only-->
+    <!-- Banner Area - Smartphone Only - Page Level 1 -->
     <section>
-        <div class="row d-md-none no-gutters gl-banner-row fixed-top">
-            <!-- Home Button -->
-            <div class="col gl-banner-col">
-                <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
-            </div>
-            <!-- /Home Button -->
-            <!-- Download Resume Button -->
-            <div class="col gl-banner-col">
-                <div class="gl-pdf-icon"><i class="far fa-file-pdf" aria-hidden="true"></i></div>
-                <a href="../content/georgelychockresume_pub.pdf" target="_blank">View Resume</a>
-            </div>
-            <!-- /Download Resume Button -->
-        </div>
-        <!-- Nav Icon Area -->
-        <div class="row d-md-none no-gutters gl-icon-row-p2">
-            <div class="col-3">
-                <div class="gl-nav-icon-name-p2">
-                    <a href="workhistory.html">Work</a>
+        <div class="container-fluid">
+            <div class="row d-md-none no-gutters fixed-top gl-banner-row">
+                <div class="col gl-banner-col">
+                    <!-- Home Button -->
+                    <a href="../index.html"><i class="fas fa-home gl-home-icon"></i></a>
+                    <!-- Download Resume Button -->
+                    <div class="gl-pdf-icon"><i class="far fa-file-pdf" aria-hidden="true"></i></div>
+                    <a href="../content/georgelychockresume_pub.pdf" target="_blank">View Resume</a>
+                    <!-- Profile Button -->
+                    <div class="float-right d-inline">
+                        <a href="#" target="_blank">My Profile</a>
+                        <div class="gl-profile-icon d-inline"><i class="fas fa-user" aria-hidden="true"></i></div>
+                    </div>
+                    <!-- /Profile Button -->
                 </div>
-                <div class="gl-nav-icon-p2"><i class="fas fa-list"></i></div>
-            </div>
-            <div class="col-3">
-                <div class="gl-nav-icon-name-p2">
-                    <a href="skills.html">Skills</a>
-                </div>
-                <div class="gl-nav-icon-p2"><i class="far fa-lightbulb"></i></div>
-            </div>
-            <div class="col-3">
-                <div class="gl-nav-icon-name-p2">
-                    <a href="portfolio.html">Portfolio</a>
-                </div>
-                <div class="gl-nav-icon-p2"><i class="fas fa-briefcase"></i></div>
-            </div>
-            <div class="col-3">
-                <div class="gl-nav-icon-name-p2">
-                    <a href="education.html">Education</a>
-                </div>
-                <div class="gl-nav-icon-p2"><i class="fas fa-graduation-cap"></i></div>
+                <div class="gl-banner-heading lowercase">George Lychock - Skills and Career Focuses</div>
             </div>
         </div>
-        <!-- /Nav Icon Area -->
     </section>
-    <!-- /Banner Area - Page 1 -->
+    <!-- /Banner Area - Smartphone Only - Page 1 -->
+    <!-- Nav Icon Area - Smartphone Only -->
+    <section>
+        <div class="container-fluid gl-nav-icon-wrapper">
+            <div class="row d-md-none no-gutters gl-icon-row-p2">
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="workhistory.html">Work</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-list"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="skills.html">Skills</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="far fa-lightbulb"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-briefcase"></i></div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-nav-icon-name-p2">
+                        <a href="education.html">Education</a>
+                    </div>
+                    <div class="gl-nav-icon-p2"><i class="fas fa-graduation-cap"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Nav Icon Area - Smartphone Only -->
     <!-- Content Area -->
-    <div class="container-fluid gl-container">
-        <div class="row no-gutters gl-content-heading-outter">
-            <div class="col">
-                <div class="gl-content-heading">Skills and Career Focuses</div>
-            </div>
+    <div class="container-fluid d-none d-md-block gl-contentheading-wrap">
+        <div class="row no-gutters">
+            <div class="gl-content-heading lowercase">George Lychock - Skills and Career Focuses</div>
         </div>
+    </div>
+    <div class="container-fluid gl-content-container">
         <div class="row no-gutters">
             <div class="col gl-content-1">
-                <h3>Currently Working On</h3>
-                <p>Salem State Full Stack Software Developer Certification</p>
+                <div class="uppercase gl-content-1-heading">Currently Working On</div>
+                <h5>Salem State Full Stack Software Developer Certification</h5>
+                <h6>Projected Completion: May 2021</h6>
+                <p>I'm currently enrolled in the Full Stack Software Developer certificate program at Salem State
+                    University.
+                    The program focuses on HTML, CSS, Javascript, and SQL and the projects are based on Bootstrap 4, Python,
+                    MongoDB, Django. <a
+                        href="https://careertraining.ed2go.com/salemstate/training-programs/full-stack-software-developer/?Category=computer-science"
+                        target="_blank">See Curriculum Here.</a> See Details and Outline tabs on the syllabus...</p>
             </div>
         </div>
+        <hr>
         <div class="row no-gutters">
             <div class="col gl-content-1">
-                <h3>Recent Certifications</h3>
-                <div>PMI PMP</div>
-                <div>Lean Six Sigma</div>
+                <div class="uppercase gl-content-1-heading">Recent Certifications</div>
+                <h5>PMI PMP &trade;</h5>
+                <h6>Obtained August 2020</h6>
+                <p><i>from</i><a href="https://en.wikipedia.org/wiki/Project_Management_Professional" target="_blank">
+                        wikipedia...</a> "Project Management Professional (PMP) is an internationally recognized
+                    professional
+                    designation offered by the Project Management Institute (PMI). As of 31 July 2020, there are 1,036,367
+                    active PMP certified individuals..."</p>
+    
+                <h5>Lean Six Sigma Green Belt</h5>
+                <h6>Williams George Associates, Obtained July 2020</h6>
+                <p><i>from</i><a href="https://en.wikipedia.org/wiki/Lean_Six_Sigma" target="_blank"> wikipedia...</a> "Lean
+                    Six
+                    Sigma is a method that relies on a collaborative team effort to improve performance by systematically
+                    removing waste[1] and reducing variation. It combines lean manufacturing/lean enterprise and Six Sigma
+                    to
+                    eliminate the eight kinds of waste (muda): Defects, Over-Production, Waiting, Non-Utilized Talent,
+                    Transportation, Inventory, Motion, and Extra-Processing. "</p>
             </div>
         </div>
+        <hr>
         <!-- CODE REUSE - Skills Progress Area User Centric Module, Code Institute -->
         <div class="row progress-section">
             <div class="col gl-content-1">
-                <h3>My Skills Progress</h3>
+                <div class="gl-progress-heading">My Skills Progress</div>
                 <div class="progress">
                     <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
                         style="width: 90%;">
@@ -167,44 +202,46 @@
                 </div>
             </div>
         </div>
+        <!-- /CODE REUSE - Skills Progress Area User Centric Module, Code Institute -->
     </div>
-    <!-- /CODE REUSE - Skills Progress Area User Centric Module, Code Institute -->
     <!-- /Content Area -->
-     <!-- Social Links Area -->
-     <div class="row no-gutters gl-social-row">
-        <div class="col">
-            <ul class="list-group list-group-horizontal gl-social-ul">
-                <li class="list-group-item  gl-social-icon">
-                    <a target="_blank" href="https://www.linkedin.com/in/georgelychock">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        <span class="sr-only">LinkedIn</span>
-                    </a>
-                </li>
-                <li class="list-group-item gl-social-icon">
-                    <a target="_blank" href="https://github.com/GeorgeLychock">
-                        <i class="fab fa-github" aria-hidden="true"></i>
-                        <span class="sr-only">GitHUb</span>
-                    </a>
-                </li>
-                <li class="list-group-item gl-social-icon">
-                    <a target="_blank" href="https://www.georgelychock.com/">
-                        <img src="../images/gl-com-logo-01.png" alt="george lychock's wordpress website" height="30px">
-                        <span class="sr-only">georgelychock.com</span>
-                    </a>
-                </li>
-                <li class="list-group-item gl-social-icon">
-                    <a target="_blank" href="https://www.pinterest.com/georgelychock/">
-                        <i class="fa fa-pinterest" aria-hidden="true"></i>
-                        <span class="sr-only">Pinterest</span>
-                    </a>
-                </li>
-                <li class="list-group-item gl-social-icon">
-                    <a target="_blank" href="https://twitter.com/glychock?lang=en">
-                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                    </a>
-                </li>
-            </ul>
+    <!-- Social Links Area -->
+    <div class="container-fluid gl-container">
+        <div class="row no-gutters gl-social-row">
+            <div class="col">
+                <ul class="list-group list-group-horizontal float-right">
+                    <li class="list-group-item  gl-social-icon-lg">
+                        <a target="_blank" href="https://www.linkedin.com/in/georgelychock">
+                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon-lg">
+                        <a target="_blank" href="https://github.com/GeorgeLychock">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <span class="sr-only">GitHUb</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://www.pinterest.com/georgelychock/">
+                            <i class="fa fa-pinterest" aria-hidden="true"></i>
+                            <span class="sr-only">Pinterest</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://twitter.com/glychock?lang=en">
+                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-group-item gl-social-icon">
+                        <a class="align-middle" target="_blank" href="https://www.facebook.com/george.lychock">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
     <!-- /Social Links Area -->

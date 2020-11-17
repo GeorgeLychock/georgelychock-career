@@ -227,11 +227,24 @@ h1, h2, h3, h4 {
 .gl-content-1 {
     margin: 8px;
 }
+
+.gl-content-1 p {
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
 .gl-content-heading {
     font-size: 3rem;
     color: #fff;
     padding: 10px;
     width: 100%;
+}
+
+.gl-content-1-heading {
+    font-size: .75rem;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 5px;
 }
 
 .gl-contentheading-wrap {
@@ -245,6 +258,13 @@ h1, h2, h3, h4 {
 }
 .gl-work-accomp {
     padding-left: 20px;
+}
+
+/* Skills */
+.gl-progress-heading {
+    font-size: 1.25rem;
+    padding: 10px;
+    width: 100%;
 }
 
 /* Page Level 2 - Content Area */
