@@ -69,14 +69,17 @@ h1, h2, h3, h4 {
 }
 
 .gl-navbar-col {
-    height: 60px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    height: 60px;
 }
 
 .gl-navbar {
-    padding-left: 9px;
+    margin-left: 9px;
+    margin-top: 10px;
     font-family: 'Raleway', sans-serif;
     display: inline;
+    position: absolute;
 }
 
 .gl-navbar a {
