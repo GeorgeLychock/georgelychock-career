@@ -283,7 +283,7 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-.gl-profile-content {
+.gl-profile-content, .gl-profile-content-2 {
     padding-top: 20px;
     color: whitesmoke;
     text-align: left;
@@ -323,7 +323,7 @@ h1, h2, h3, h4 {
 }
 
 
-/* Social Link Styles */
+/* Social Links */
 .gl-social-row {
     background-color: rgba(25, 25, 25, 0.60);
     margin-bottom: 5%;
@@ -369,7 +369,7 @@ h1, h2, h3, h4 {
     color: whitesmoke;
 }
 
-/* Profile Section Styles */
+/* Profile Section */
 .gl-home-profile-wrapper {
     height: 370px;
     background-color: #000;
@@ -396,7 +396,7 @@ h1, h2, h3, h4 {
     padding-left: 40px;
 }
 
-/* Home Credentials Section Styles */
+/* Home Credentials Section */
 .gl-home-creds-container {
     background-color: #f9ebd2;
 }
@@ -437,24 +437,24 @@ h1, h2, h3, h4 {
     font-size: .75rem;
 }
 
-/* Home Site Links Section Styles */
+/* Home Site Links Section */
 .gl-home-site-links-wrapper {
     padding: 0;
     height: 250px;
 }
 
-/* Home Social Links Section Styles */
+/* Home Social Links Section */
 .gl-home-social-wrapper {
     padding: 0;
     height: 80px;
 }
 
-/* Home Home Footer Section Styles */
+/* Home Footer Section */
 .gl-home-footer-wrapper {
     padding: 0;
 }
 
-/* @media styles */
+/* @media */
    @media only screen and (min-width: 667px) {
     body {
         background-color: #fff;
@@ -506,6 +506,11 @@ h1, h2, h3, h4 {
 
     .gl-content-1 {
         margin-top: 30px;
+    }
+
+    .gl-profile-content-2 {
+        margin-left: 100px;
+        margin-top: 50px;
     }
 
     .gl-social-row {
