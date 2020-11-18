@@ -5,7 +5,7 @@
 
 [View the live project here.](http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html)
 
-This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed' code will be documented below.
+This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed or sampled' code will be documented below.
 
 ##### Possible landing page image, carried over from BS3 site:
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
@@ -17,21 +17,28 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### General User Experience
         1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  Main Content should never be more than **two clicks** away from home.
-                2.  Home should never be more than **one click** away from anywhere on the site.
-                3.  Nav dropdown is required, giving access to any main content page (career objectives, education, skills, work history, pd etc.) from anywhere in the site.
+                1.  Most detailed Content is never more than **two clicks** away from home.
+                2.  Home is always **one click** away from anywhere on the site.
+                3.  Nav dropdown (collapse) is *prohibited*
+                4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
 
-        2.  As a Site Visitor, I want to be able to see a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+        2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria Duplicated in Testing below
-                1.  All content, with exception of imagery, has to be accessible from desktop, tablet, or mobile device.
-
+                1.  All content has to be accessible from desktop, tablet, or mobile device.
+                2.  All images should have alt text
+                3.  Icons should be consistent across viewports
+                4.  Indentation (margins and padding) should be structurally similar across viewports
+                5.  Pages and sections use the same names throughout the site ei when refering to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
+                6.  All fonts are consistent for each section and element across all viewports
+                7.  All documents and links to external sites should open a new tab in the browser
+                8.  Any page or internal site links should never open a new browser tab
 
     -   #### Recruiter and HR Contact Experience
         1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
-                2.  Access to the most recently published resume.
-                3.  Access to any other relevant online resources showing George's career history and path
+                2.  Access to the most recently published resume must be present on all pages, all viewports.
+                3.  Access to George's Profile page must be present on all pages, all viewports.
 
     -   #### Hiring Manager Experience
         1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
@@ -49,11 +56,13 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Colour Scheme
         -   Most likely using a white main background to give a more professional look as opposed to black or dark colors.
     -   #### Typography
-        -   Two Google fonts, to be determined at design phase.
+        -   Two Google fonts, Montserrat will be used for headings and titles, Raleway will be used for all running text and nav items.
     -   #### Imagery
         -   Images will be kept to a minimum, most likely just a hero image of something that corresponds to George's PD or Education. There will be an image of George on a profile page.
     -   #### Iconography
-        -   Use icons in nav elements, social media elements
+        -   Use icons in nav elements, social media elements, using Font Awesome icons.
+    -   #### Profile Page
+        -   The Profile page should have a different look and feel and Content Area struture than the other pages of the website; this will probably be finished in a R2 of the site.
 
 -   ### Wireframes
 
@@ -90,11 +99,11 @@ This is the main career website for George Lychock. It contains all the job, edu
                 -   Edu Item
                 -   Cred Item
                 -   PD Item
-            -   Profile Page
+            -   Profile Page (R2)
     -   Main Page Sections:
         -   Home
             -   Download Resume Feature
-            -   Jumbotron
+            -   Hero Image
             -   Nav (to Content Area Landing Pages eg Work History)
             -   Social Media Links
         -   Secondary Pages (Content Area Landing Page)
@@ -177,7 +186,7 @@ Release 2
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 3. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-3. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+3. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
 3. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/) during the design process.
@@ -196,59 +205,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Testing User Stories from User Experience (UX) Section
 
--   #### First Time Visitor Goals
+#### General User Experience
+    1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+        -  ##### Acceptance Criteria -- Duplicated in Testing below
+            1.  Most detailed Content is never more than **two clicks** away from home.
+            2.  Home is always **one click** away from anywhere on the site.
+            3.  Nav dropdown (collapse) is *prohibited*
+            4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+    2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+        -  ##### Acceptance Criteria Duplicated in Testing below
+            1.  All content has to be accessible from desktop, tablet, or mobile device.
+            2.  All images should have alt text
+            3.  Icons should be consistent across viewports
+            4.  Indentation (margins and padding) should be structurally similar across viewports
+            5.  Pages and sections use the same names throughout the site ei when refering to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
+            6.  All fonts are consistent for each section and element across all viewports
+            7.  All documents and links to external sites should open a new tab in the browser
+            8.  Any page or internal site links should never open a new browser tab
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Learn More" Call to action button.
-        2. The main points are made immediately with the hero image
-        3. The user has two options, click the call to action buttons or scroll down, both of which will lead to the same place, to learn more about the organisation.
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        1. The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        2. At the bottom of the first 3 pages there is a redirection call to action to ensure the user always has somewhere to go and doesn't feel trapped as they get to the bottom of the page.
-        3. On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-    3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-        1. Once the new visitor has read the About Us and What We Do text, they will notice the Why We are Loved So Much section.
-        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
-        3. At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-        1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
-        2. Alternatively, the user can scroll to the bottom of the Home page to find the Facebook Group redirect card and can easily join by clicking the "Join Now!" button which like any external link, will open in a new tab to ensure they can get back to the website easily.
-        3. If the user is on the "Our Favourites" page they will also be greeted with a call to action button to invite the user to the Facebook group. The user is incentivized as they are told there is a weekly favourite product posted in the group.
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
+#### Recruiter and HR Contact Experience
+    1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+        -  ##### Acceptance Criteria -- Duplicated in Testing below
+            1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
+            2.  Access to the most recently published resume must be present on all pages, all viewports.
+            3.  Access to George's Profile page must be present on all pages, all viewports.
 
 ### Further Testing
 
