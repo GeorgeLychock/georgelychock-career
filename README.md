@@ -15,7 +15,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### User stories
     -   #### General User Experience
-        1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+        -   1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
@@ -23,7 +23,7 @@ This is the main career website for George Lychock. It contains all the job, edu
                 4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
 
         2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
-            -  ##### Acceptance Criteria Duplicated in Testing below
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  All content has to be accessible from desktop, tablet, or mobile device.
                 2.  All images should have alt text
                 3.  Icons should be consistent across viewports
