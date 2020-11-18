@@ -15,7 +15,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### User stories
     -   #### General User Experience
-        -   1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+    1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
