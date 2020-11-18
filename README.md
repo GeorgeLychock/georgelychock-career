@@ -125,10 +125,11 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 *   ### Future Reqs
     *   *Capture furture release reqs here*
-    *   Address responsibility issues with tablet viewports
+    *   Address responsive issues with tablet viewports
     *   Add a "About Hero Image" modal or link to page ref
     *   Add a timeline graphic to the Work History page
     *   Review adding Profile and Creds section on L1 pages
+    *   Apply minor column structure to desktop view for Skills and Work History pages
 
 ## Approved Features and Initial Release Strategy
 
