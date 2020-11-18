@@ -318,6 +318,14 @@ h1, h2, h3, h4 {
     margin-bottom: 40px;
 }
 
+.gl-education-wrapper p {
+    margin-left: 10px;
+}
+
+.gl-education-wrapper h5 {
+    font-weight: 600;
+}
+
 .gl-education-heading {
     font-size: 1.5rem;
     margin-bottom: 10px;
