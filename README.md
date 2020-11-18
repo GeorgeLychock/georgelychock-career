@@ -257,7 +257,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
--   On tablet viewports the Credentials Section overflows on the Home page.
+-   On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
+-   On mobile view social nav icons do not center properly
 
 ## Deployment
 
