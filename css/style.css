@@ -13,9 +13,10 @@
 /* Work History */
 /* Skills */
 /* Profile */
+/* Portfolio */
 /* Page 2 - Work History */
 /* Social Link */
-/* Profile Section */
+/* Home Profile Section */
 /* Home Credentials Section */
 /* Home Site Links Section */
 /* Home Social Links Section */
@@ -297,6 +298,20 @@ h1, h2, h3, h4 {
     height: 250px;
 }
 
+/* Portfolio */
+.gl-portfolio-wrapper {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.gl-portfolio-content, .gl-portfolio-content-2 {
+    padding-top: 20px;
+    color: #000;
+    text-align: left;
+}
+
 /* Page Level 2 - Content Area */
 
 .gl-content-heading-outter {
@@ -369,7 +384,7 @@ h1, h2, h3, h4 {
     color: whitesmoke;
 }
 
-/* Profile Section */
+/* Home Profile Section */
 .gl-home-profile-wrapper {
     height: 370px;
     background-color: #000;
@@ -508,8 +523,13 @@ h1, h2, h3, h4 {
         margin-top: 30px;
     }
 
+    .gl-profile-wrapper {
+        padding-left: 100px;
+        margin: 0;
+    }
+
     .gl-profile-content-2 {
-        margin-left: 100px;
+        margin-left: 10px;
         margin-top: 50px;
     }
 
