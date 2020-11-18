@@ -14,6 +14,7 @@
 /* Skills */
 /* Profile */
 /* Portfolio */
+/* Education */
 /* Page 2 - Work History */
 /* Social Link */
 /* Home Profile Section */
@@ -311,6 +312,17 @@ h1, h2, h3, h4 {
     color: #000;
     text-align: left;
 }
+
+/* Education */
+.gl-education-wrapper {
+    margin-bottom: 40px;
+}
+
+.gl-education-heading {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
 
 /* Page Level 2 - Content Area */
 
