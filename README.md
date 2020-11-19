@@ -163,12 +163,12 @@ Release 1
 -   Method to view my work history
 -   Method to see what I have been working on in Professional Development
 -   Method to show education history
--   Method to show what I work on outside of my main career
 -   Method to connect to my github repo
 -   Method to quickly get to my social media sites
 
 Release 2
 -   Add Profile Page to site
+-   Method to show what I work on outside of my main career
 -   Create an About Hero Image modal
 
 
@@ -184,25 +184,23 @@ Release 2
 
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-3. [Google Fonts:](https://fonts.google.com/)
+2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-4. [Font Awesome:](https://fontawesome.com/)
+3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-5. [jQuery:](https://jquery.com/)
+4. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-6. [Git](https://git-scm.com/)
+5. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-7. [GitHub:](https://github.com/)
+6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-8. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
+7. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-9. [Balsamiq:](https://balsamiq.com/)
+8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/) during the design process.
-10. [Jira:](https://www.atlassian.com/software/jira)
+9. [Jira:](https://www.atlassian.com/software/jira)
     - Jira was used to track spints and work logs for all work done on the site.
-11. [Confluence:](https://www.atlassian.com/software/confluence)
+10. [Confluence:](https://www.atlassian.com/software/confluence)
     - Confluence was used to document all information around scoping, structure, technologies, and releases for this project.
 
 
@@ -210,8 +208,8 @@ Release 2
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/)
 
 -   ### Testing User Stories from User Experience (UX) Section
     -   #### General User Experience
