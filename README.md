@@ -176,23 +176,23 @@ Release 2
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-2. [Google Fonts:](https://fonts.google.com/)
+3. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
-2. [Font Awesome:](https://fontawesome.com/)
+4. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
+5. [jQuery:](https://jquery.com/)
     - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
-3. [Git](https://git-scm.com/)
+6. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-3. [GitHub:](https://github.com/)
+7. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-3. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
+8. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
     - Photoshop was used to create the logo, resizing images and editing photos for the website.
-3. [Balsamiq:](https://balsamiq.com/)
+9. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/) during the design process.
-3. [Jira:](https://www.atlassian.com/software/jira)
+10. [Jira:](https://www.atlassian.com/software/jira)
     - Jira was used to track spints and work logs for all work done on the site.
-3. [Confluence:](https://www.atlassian.com/software/confluence)
+11. [Confluence:](https://www.atlassian.com/software/confluence)
     - Confluence was used to document all information around scoping, structure, technologies, and releases for this project.
 
 
@@ -203,9 +203,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-### Testing User Stories from User Experience (UX) Section
+-   ### Testing User Stories from User Experience (UX) Section
 
-#### General User Experience
+-   #### General User Experience
     1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
         -  ##### Acceptance Criteria -- Duplicated in Testing below
             1.  Most detailed Content is never more than **two clicks** away from home.
@@ -224,7 +224,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
             7.  All documents and links to external sites should open a new tab in the browser
             8.  Any page or internal site links should never open a new browser tab
 
-#### Recruiter and HR Contact Experience
+-   #### Recruiter and HR Contact Experience
     1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
         -  ##### Acceptance Criteria -- Duplicated in Testing below
             1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
