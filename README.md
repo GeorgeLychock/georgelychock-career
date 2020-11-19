@@ -11,7 +11,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
 
 -   ## User Experience (UX)
-    Since this site will almost always be accessed by first-time users, the focus will be on a more simple, less-busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 25% of the traffic will be via mobile device.
+    Since this site will almost always be accessed by first-time users, the focus will be on a more simple, less-busy design and navigation. Very few images. Precise and succinct content, fewer words, more content flow. My old career site, based on Bootstrap3 was too word heavy. The mobile experience needs to be completely flawless and error free as I suspect that up to 50% of the traffic will be via mobile device.
 
 -   ### User stories
     -   #### General User Experience
@@ -78,12 +78,12 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 ## Requirements
 -   ### Business Reqs
-        -   Smartphone first design; to replicate a native app as closely as possible
-        -   Re-work Smartphone UX into a desktop experience
-        -   Smartphone experience should be substantially different than desktop, yet retain many of the elements and content reuse.
-        -   Wireframes for both scenarios need to be created prior to dev work.
-        -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
-        
+    -   Smartphone first design; to replicate a native app as closely as possible
+    -   Re-work Smartphone UX into a desktop experience
+    -   Smartphone experience should be substantially different than desktop, yet retain many of the elements and content reuse.
+    -   Wireframes for both scenarios need to be created prior to dev work.
+    -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
+
 -   ### Structure Reqs
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
