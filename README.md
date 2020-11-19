@@ -204,32 +204,31 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 -   ### Testing User Stories from User Experience (UX) Section
+    -   #### General User Experience
+        1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  Most detailed Content is never more than **two clicks** away from home.
+                2.  Home is always **one click** away from anywhere on the site.
+                3.  Nav dropdown (collapse) is *prohibited*
+                4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
 
--   #### General User Experience
-    1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
-        -  ##### Acceptance Criteria -- Duplicated in Testing below
-            1.  Most detailed Content is never more than **two clicks** away from home.
-            2.  Home is always **one click** away from anywhere on the site.
-            3.  Nav dropdown (collapse) is *prohibited*
-            4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
+        2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+            -  ##### Acceptance Criteria Duplicated in Testing below
+                1.  All content has to be accessible from desktop, tablet, or mobile device.
+                2.  All images should have alt text
+                3.  Icons should be consistent across viewports
+                4.  Indentation (margins and padding) should be structurally similar across viewports
+                5.  Pages and sections use the same names throughout the site ei when refering to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
+                6.  All fonts are consistent for each section and element across all viewports
+                7.  All documents and links to external sites should open a new tab in the browser
+                8.  Any page or internal site links should never open a new browser tab
 
-    2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
-        -  ##### Acceptance Criteria Duplicated in Testing below
-            1.  All content has to be accessible from desktop, tablet, or mobile device.
-            2.  All images should have alt text
-            3.  Icons should be consistent across viewports
-            4.  Indentation (margins and padding) should be structurally similar across viewports
-            5.  Pages and sections use the same names throughout the site ei when refering to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
-            6.  All fonts are consistent for each section and element across all viewports
-            7.  All documents and links to external sites should open a new tab in the browser
-            8.  Any page or internal site links should never open a new browser tab
-
--   #### Recruiter and HR Contact Experience
-    1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
-        -  ##### Acceptance Criteria -- Duplicated in Testing below
-            1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
-            2.  Access to the most recently published resume must be present on all pages, all viewports.
-            3.  Access to George's Profile page must be present on all pages, all viewports.
+    -   #### Recruiter and HR Contact Experience
+        1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
+                2.  Access to the most recently published resume must be present on all pages, all viewports.
+                3.  Access to George's Profile page must be present on all pages, all viewports.
 
 ### Further Testing
 
