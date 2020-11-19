@@ -45,16 +45,20 @@ This is the main career website for George Lychock. It contains all the job, edu
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
                 2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
+                3.  One Click access to George's Work History
+                4.  A skills summary page needs to be present
+                5.  An Education and/or Professional Development page needs to be present
 
     -   #### Casual Visitor Experience
         1.  As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  TK
-                2.  TK
+                1.  Mobile experience on Home page should not require a scroll to view entire Home page content
+                2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
+                3.  Use at least one advanced Bootstrap component on the site.
 
 -   ### Design
     -   #### Colour Scheme
-        -   Most likely using a white main background to give a more professional look as opposed to black or dark colors.
+        -   Most likely using a white main background to give a more professional look as opposed to black or dark colors. The final color scheme will have to be iterated over to the R2 release given time contraints.
     -   #### Typography
         -   Two Google fonts, Montserrat will be used for headings and titles, Raleway will be used for all running text and nav items.
     -   #### Imagery
@@ -79,6 +83,7 @@ This is the main career website for George Lychock. It contains all the job, edu
         -   Smartphone experience should be substantially different than desktop, yet retain many of the elements and content reuse.
         -   Wireframes for both scenarios need to be created prior to dev work.
         -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
+        
 -   ### Structure Reqs
     -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
@@ -87,19 +92,19 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   High Level Sitemap:
         -   Home   
             -   Work History
-                -   Work History Item
+                -   Work History Item*
             -   Skills Summary and Career Focuses
-                -   Currently Working On Item
-                -   Recent Certifications Item
-                -   Skills Progress Bar Item
+                -   Currently Working On Item*
+                -   Recent Certifications Item*
+                -   Skills Progress Bar Item*
             -   Portfolio and Projects
-                -   Project Item
-                -   Portfolio Item
+                -   Project Item*
+                -   Portfolio Item*
             -   Education, Credentials, and Professional Development
-                -   Edu Item
-                -   Cred Item
-                -   PD Item
-            -   Profile Page (R2)
+                -   Edu Item*
+                -   Cred Item*
+                -   PD Item*
+            -   Profile Page
     -   Main Page Sections:
         -   Home
             -   Download Resume Feature
@@ -111,20 +116,25 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Nav (to Content Area Landing Pages eg Work History)
             -   Content TOC, Short Descriptions
             -   Social Media Links
-        -   Third Pages (Content Item Page)
+        -   Third Pages (Content Item Page)*
             -   Download Resume Feature
             -   Nav (to Content Area Landing Pages eg Work History)
             -   Content Item, Long Description
             -   Social Media Links
+        *Third Level pages may be ommited if # of content items doesn't require the extra level of structure/display
+
 -   ### General Requirements
-        -   Alt text all links and images
+    -   Alt text all images
+
 -   ### Navigation Reqs
-    -   Persistent Back button
-    -   Persistent nav header on Smartphone viewports
-    -   Menu items should have respective icons
+    -   Persistent Home or Back button
+    -   Persistent banner on Smartphone viewports containing Home, resume download, and Profile buttons
+    -   Menu items should have respective icons, determined by developer
     -   No collaspable nav button on any viewports
+
 -   ### Social Media Section
     -   Social media links will have circular backgrounds, with two sizes and colors, distinquishing more important links for the less important links
+
 -   ### Home
     -   Use a hero image that is personally connected to George
     -   Mobile experience will be a single screen with nav icons and no scrolling to add'l content
@@ -229,6 +239,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
                 2.  Access to the most recently published resume must be present on all pages, all viewports.
                 3.  Access to George's Profile page must be present on all pages, all viewports.
+
+    -   #### Hiring Manager Experience
+        1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
+                2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
+                3.  One Click access to George's Work History
+                4.  A skills summary page needs to be present
+                5.  An Education and/or Professional Development page needs to be present
+
+    -   #### Casual Visitor Experience
+        1.  As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
+            -  ##### Acceptance Criteria -- Duplicated in Testing below
+                1.  Mobile experience on Home page should not require a scroll to view entire Home page content
+                2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
+                3.  Use at least one advanced Bootstrap component on the site.
 
 ### Further Testing
 
