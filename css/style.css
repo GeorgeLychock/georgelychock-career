@@ -10,12 +10,13 @@
 /* Banner */
 /* Hero */
 /* Nav Icon Home */
+/* Nav Icon - Secondary Page */
+/* Content Area - Secondary Page */
 /* Work History */
 /* Skills */
 /* Profile */
 /* Portfolio */
 /* Education */
-/* Page 2 - Work History */
 /* Social Link */
 /* Home Profile Section */
 /* Home Credentials Section */
@@ -32,18 +33,23 @@
 /* Base Element */
 body {
     background-color: #000;
+    font-family: 'Raleway', sans-serif;
 }
-h1, h2, h3, h4 {
+
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Common */
 .uppercase {
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .lowercase {
     text-transform: lowercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .text-center {
@@ -94,6 +100,7 @@ h1, h2, h3, h4 {
     background-color: #666;
     margin-top: 20px;
 }
+
 .gl-navbar a:hover {
     color: whitesmoke;
 }
@@ -123,21 +130,26 @@ h1, h2, h3, h4 {
 .gl-banner-row {
     background-color: #000;
 }
+
 .gl-pdf-icon {
     display: inline;
     margin-left: 6px;
     color: #fff;
 }
+
 .gl-profile-icon {
     color: whitesmoke;
 }
+
 .gl-banner-col {
     margin: 0;
     text-decoration: none;
 }
+
 .gl-banner-col a {
     color: whitesmoke;
 }
+
 .gl-banner-heading {
     font-size: .75rem;
     padding: 10px;
@@ -150,11 +162,13 @@ h1, h2, h3, h4 {
     color: wheat;
     display: inline;
 }
+
 .gl-download {
     float: right;
     background-color: #666;
     padding-right: 10px;
 }
+
 .gl-home-icon {
     color: #9cf;
     margin-left: 6px;
@@ -167,12 +181,14 @@ h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
    }
+
 .gl-hero-title{
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: wheat;
     padding-top: 10%;
 }
+
 .gl-hero-title-heading {
     font-size: 2rem;
     font-weight: 300;
@@ -208,7 +224,7 @@ h1, h2, h3, h4 {
     color: wheat;
 }
 
-/* Nav Icon - Page 2 */
+/* Nav Icon - Secondary Page */
 .gl-nav-icon-wrapper {
     padding: 0;
     margin: 0;
@@ -219,16 +235,18 @@ h1, h2, h3, h4 {
     text-align: center;
     margin-top: 70px;
 }
+
 .gl-nav-icon-p2 {
     font-size: .75rem;
     color: #000;
 }
+
 .gl-nav-icon-name-p2 {
     font-size: .75rem;
     color: wheat;
 }
 
-/* Page Level 1 - Content Area */
+/* Content Area - Secondary Page */
 .gl-content-1 {
     margin: 8px;
 }
@@ -239,7 +257,7 @@ h1, h2, h3, h4 {
 }
 
 .gl-content-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     color: #fff;
     padding: 10px;
     width: 100%;
@@ -261,6 +279,7 @@ h1, h2, h3, h4 {
     padding-left: 20px;
     margin-top: 10px;
 }
+
 .gl-work-accomp {
     padding-left: 20px;
 }
@@ -270,6 +289,26 @@ h1, h2, h3, h4 {
     font-size: 1.25rem;
     padding: 10px;
     width: 100%;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    height: 25px;
+    padding: 12px 8px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 20px 20px;
 }
 
 /* Profile */
@@ -331,33 +370,6 @@ h1, h2, h3, h4 {
     margin-bottom: 10px;
 }
 
-
-/* Page Level 2 - Content Area */
-
-.gl-content-heading-outter {
-    background-color: #000;
-    color: wheat;
-    display: block;
-}
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
-}
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    height: 25px;
-    padding: 12px 8px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-.progress-section {
-    margin: 40px 20px;
-}
-
-
 /* Social Links */
 .gl-social-row {
     background-color: rgba(25, 25, 25, 0.60);
@@ -384,6 +396,7 @@ h1, h2, h3, h4 {
 .gl-social-icon a {
     color: salmon;
 }
+
 .gl-social-icon i:hover {
     background-color: rgba(250, 128, 114, .5);
 }
@@ -397,9 +410,11 @@ h1, h2, h3, h4 {
     text-align: center;
     padding: 8px 4px;
 }
+
 .gl-social-icon-lg i:hover {
     background-color: rgba(0, 85, 250, .5);
 }
+
 .gl-cr {
     color: whitesmoke;
 }
@@ -556,6 +571,7 @@ h1, h2, h3, h4 {
     .gl-portfolio-wrapper {
         margin: 0 0 60px 0;
     }
+    
     .gl-portfolio-content {
         padding: 20px 160px 0 40px;
     }
