@@ -427,10 +427,15 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.gl-home-profile-content {
+.gl-home-profile-content, .gl-home-profile-content-r {
     padding-top: 20px;
+    padding-left: 10px;
     color: whitesmoke;
     text-align: left;
+}
+
+.gl-home-profile-content-r {
+    margin-left: 30px;
 }
 
 .gl-home-profile-heading {
@@ -443,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gl-home-profile-address {
-    padding-left: 40px;
+    padding-left: 20px;
 }
 
 /* Home Credentials Section */
