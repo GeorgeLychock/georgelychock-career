@@ -89,7 +89,8 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   Three (3) screen max click path to any content on the site
     -   Resume download to be present at top on all screens, all viewports, fixed to top
     -   Persistent social media icons in footer for all screens, all viewports
-    -   High Level Sitemap:
+    -   Use Semantic HTML whenever possible following the MDN guide found [here.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+    -   Projected High Level Sitemap:
         -   Home   
             -   Work History
                 -   Work History Item*
