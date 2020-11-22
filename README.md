@@ -126,6 +126,16 @@ This is the main career website for George Lychock. It contains all the job, edu
 -   ### General Requirements
     -   Alt text all images
     -   Use Semantic HTML whenever possible following the MDN guide found [here.](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+    -   Limit Semantic Elements implemented to the following list:
+        -   <main>
+        -   <section>
+        -   <nav>
+        -   <article>
+        -   <aside>
+        -   <header>
+        -   <footer>
+        -   <button>
+        -   <address>
 
 -   ### Navigation Reqs
     -   Persistent Home or Back button
