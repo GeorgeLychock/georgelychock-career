@@ -71,6 +71,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.gl-description {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
 /* Navbar */
 .gl-navbar-wrapper {
     padding: 0;
@@ -264,9 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gl-content-1-heading {
-    font-size: .75rem;
     color: #000;
-    font-weight: 800;
     margin-bottom: 15px;
 }
 
@@ -275,10 +279,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Work History */
-.gl-work-description {
-    padding-left: 20px;
-    margin-top: 10px;
-}
 
 .gl-work-accomp {
     padding-left: 20px;
@@ -286,9 +286,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Skills */
 .gl-progress-heading {
-    font-size: 1.25rem;
     padding: 10px;
     width: 100%;
+    text-align: center;
 }
 
 .progress {
@@ -316,16 +316,15 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #000;
     padding: 0;
     margin: 0;
+    margin-left: 8px;
     text-align: center;
 }
 
 .gl-profile-heading {
-    padding: 20px 0;
     color: wheat;
 }
 
 .gl-profile-content, .gl-profile-content-2 {
-    padding-top: 20px;
     color: whitesmoke;
     text-align: left;
 }
@@ -339,18 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Portfolio */
-.gl-portfolio-wrapper {
-    background-color: #fff;
-    padding: 20px 10px 0 20px;
-    margin: 0;
-    text-align: center;
-}
 
-.gl-portfolio-content, .gl-portfolio-content-2 {
-    padding-top: 20px;
-    color: #000;
-    text-align: left;
-}
 
 /* Education */
 .gl-education-wrapper {
@@ -560,7 +548,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .gl-content-1 {
+        margin: 0;
         margin-top: 30px;
+    }
+
+    .gl-aside-1 {
+        padding-left: 80px;
     }
 
     .gl-profile-wrapper {
@@ -571,14 +564,6 @@ h1, h2, h3, h4, h5, h6 {
     .gl-profile-content-2 {
         margin-left: 10px;
         margin-top: 50px;
-    }
-
-    .gl-portfolio-wrapper {
-        margin: 0 0 60px 0;
-    }
-    
-    .gl-portfolio-content {
-        padding: 20px 160px 0 40px;
     }
 
     .gl-social-row {
