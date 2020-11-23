@@ -66,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
 }
 
+.gl-content-row {
+    padding-top: 10px;
+}
+
 .gl-container {
     margin: 0;
     padding: 0;
