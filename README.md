@@ -222,6 +222,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/nu/)
     - [Results-index.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2020-11-18.png)
     - [Results-workhistory.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-workhistory-screenshotfrom2020-11-22.png)
+    - [Results-skills.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-skills-screenshotfrom2020-11-22.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2020-11-18.png)
 
 -   ### Testing User Stories from User Experience (UX) Section
