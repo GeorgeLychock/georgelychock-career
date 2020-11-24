@@ -306,11 +306,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Any document content (eg resume pdf) is located in the content/ folder
 -   The css/ folder is located directly off the root folder
 
-### Hosting www.georgelychock-caree.com
+### Hosting www.georgelychock-career.com
 
 The project was deployed to my hosting service:
 
-1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/workhistory.html
+1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/index.html
 2. All files were uploaded via FileZilla FTP.
 
 ## *REPO CLOANING INFORMATION TK*
