@@ -17,7 +17,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### General User Experience
         1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  Most detailed Content is never more than **two clicks** away from home.
+                1.  The most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
                 3.  Nav dropdown (collapse) is *prohibited*
                 4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
@@ -235,10 +235,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   #### General User Experience
         1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  Most detailed Content is never more than **two clicks** away from home.
+                1.  The most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
                 3.  Nav dropdown (collapse) is *prohibited*
                 4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
+            -   ##### Results
+                -   (1 and 2 PASS) Since there is only only sub level of pages, user is never more than 1 click from home or one click from most detailed information available.
+                -   (3) PASS No nav icon nor dropdown exists'
+                -   (4) PASS Every sub page has at least the Home icon visible at all times, all ports. [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userst-1_4-screenshotfrom2020-11-23.png)
 
         2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria Duplicated in Testing below
