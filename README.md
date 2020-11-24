@@ -155,12 +155,13 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 *   ### Future Reqs
     *   *Capture furture release reqs here*
-    *   Address responsive issues with tablet viewports
+    *   Address responsive issues with tablet viewports, specifically Home and Profile pages
     *   Add a "About Hero Image" modal or link to page ref
     *   Add a timeline graphic to the Work History page
     *   Review adding Profile and Creds section on L1 pages
     *   Apply minor column structure to desktop view for Skills and Work History pages
     *   Update profile picture
+    *   Make nav icons on mobile view fixed top
 
 ## Approved Features and Initial Release Strategy
 
@@ -227,6 +228,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - [Results-skills.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-skills-screenshotfrom2020-11-22.png)
     - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2020-11-22.png)
     - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2020-11-23.png)
+    - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2020-11-23.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2020-11-18.png)
 
 -   ### Testing User Stories from User Experience (UX) Section
