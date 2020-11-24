@@ -254,6 +254,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 6.  All fonts are consistent for each section and element across all viewports
                 7.  All documents and links to external sites should open a new tab in the browser
                 8.  Any page or internal site links should never open a new browser tab
+            -   ##### Results
+                -   (1) PASS All site content is accessible from any viewport, although path to content may differ depeding on device tested.
+                -   (2) PASS See Nu validation above.
+                -   (3) PASS The same font awesome icons are used across all pages.
+                -   (4, 5, 6) PASS All nav, headers, and content areas align from left and top consitantly. Names are consistent. Fonts are consistent.
+                -   (7, 8) PASS All links open correctly.
 
     -   #### Recruiter and HR Contact Experience
         1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
@@ -292,10 +298,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Deployment
 
 ### Project Folder Structure
--   All secondary html pages are located in the <pages/> folder.
--   All images are located in the <images/> folder
--   Any document content (eg resume pdf) is located in the <content/> folder
--   The <css/> folder is located directly off the root folder
+-   All secondary html pages are located in the pages/ folder.
+-   All images are located in the images/ folder
+-   Any document content (eg resume pdf) is located in the content/ folder
+-   The css/ folder is located directly off the root folder
 
 ### Hosting www.georgelychock-caree.com
 
@@ -304,7 +310,7 @@ The project was deployed to my hosting service:
 1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/workhistory.html
 2. All files were uploaded via FileZilla FTP.
 
-* ## REPO CLOANING INFORMATION TK*
+## *REPO CLOANING INFORMATION TK*
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
