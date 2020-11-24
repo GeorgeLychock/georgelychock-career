@@ -267,6 +267,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
                 2.  Access to the most recently published resume must be present on all pages, all viewports.
                 3.  Access to George's Profile page must be present on all pages, all viewports.
+                -   ##### Results
+                -   (1, 2, 3) PASS All conditions met; links were checked on previous story.
 
     -   #### Hiring Manager Experience
         1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
@@ -286,14 +288,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Firefox and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPad8.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   A design professional friend of mine spent 30 minutes with me reviewing the overall design after all pages were constructed and styled.
 
 ### Known Bugs
 -   On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
 -   On mobile view social nav icons do not center properly
+-   Profile page content on tablet view does not flow correctly
 
 ## Deployment
 
