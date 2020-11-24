@@ -304,6 +304,7 @@ The project was deployed to my hosting service:
 1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/workhistory.html
 2. All files were uploaded via FileZilla FTP.
 
+~~### REPO CLOANING INFORMATION TK~~
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
@@ -359,13 +360,11 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
                    
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Semantic Structure reference.
 
 ### Content
 
 -   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
 
 ### Media
 
