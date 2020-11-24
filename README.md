@@ -160,6 +160,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     *   Add a timeline graphic to the Work History page
     *   Review adding Profile and Creds section on L1 pages
     *   Apply minor column structure to desktop view for Skills and Work History pages
+    *   Update profile picture
 
 ## Approved Features and Initial Release Strategy
 
@@ -178,7 +179,8 @@ Release 1
 -   Method to quickly get to my social media sites
 
 Release 2
--   Add Profile Page to site
+-   Updated Profile Page to site
+-   Updated profile picture of George
 -   Method to show what I work on outside of my main career
 -   Create an About Hero Image modal
 
