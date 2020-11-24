@@ -304,7 +304,7 @@ The project was deployed to my hosting service:
 1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/workhistory.html
 2. All files were uploaded via FileZilla FTP.
 
-*## REPO CLOANING INFORMATION TK*
+* ## REPO CLOANING INFORMATION TK*
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
