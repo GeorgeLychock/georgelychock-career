@@ -310,7 +310,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to my hosting service:
 
-1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/pages/index.html
+1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html
 2. All files were uploaded via FileZilla FTP.
 
 ## *REPO CLOANING INFORMATION TK*
