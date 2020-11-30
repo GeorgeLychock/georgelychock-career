@@ -294,8 +294,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A design professional friend of mine spent 30 minutes with me reviewing the overall design after all pages were constructed and styled.
 
 ### Known Bugs
--   On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
--   On mobile view social nav icons do not center properly
+-   Issue: On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
+    -   Fix: This was a much larger issue with properly sizing the hero image to fill the full height of the viewport. Started with a fresh shell for the Home page; properly added the hero image to fill full viewport on mobile; added section by section markup from the original Home page and fixed styles as needed.
+-   Issue: On mobile view social nav icons do not center properly
+    -   Fix: Set padding to rem units on i element (Font Awesome icon)
 -   Profile page content on tablet view does not flow correctly
 
 ## Deployment
