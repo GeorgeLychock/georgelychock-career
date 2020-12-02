@@ -46,8 +46,9 @@
 
 
 /* Imports */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&family=Raleway:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600&display=swap');
 
 /* Base Element */
 body {
@@ -57,7 +58,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    font-family: 'Roboto', 'FreeSans', sans-serif;
+    font-family: 'Montserrat', 'FreeSans', sans-serif;
 }
 
 /* Common */
@@ -210,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 .gl-hero-title{
     text-align: center;
     color: wheat;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .gl-hero-title-heading {
@@ -220,8 +221,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Nav Icon - Home */
 .gl-nav-icon-row {
-    margin-top: 1.75rem;
-    padding-bottom: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 15%;
+    padding-bottom: 10px;
 }
 
 .gl-nav-icon-item {
@@ -525,7 +527,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* @media */
-   @media only screen and (min-width: 667px) {
+    @media (min-width: 556px) and (max-width: 766px) {
+    .gl-social-row {
+        position: relative;
+    }
+
+    }
+
+   @media only screen and (min-width: 767px) {
     body {
         background-color: #fff;
     }
