@@ -293,7 +293,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   A design professional friend of mine spent 30 minutes with me reviewing the overall design after all pages were constructed and styled.
 
-### Known Bugs
+### Fixed Bugs after Testing
 -   Issue: On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
 -   Issue: Hero image does not properly fill the full viewport; mobile viewports either scroll or the site doesn't fil the entire screen leaving a black background visible at bottom.
     -   Fix: This was a major larger issue; properly sizing the hero image to fill the full height of the viewport was a blocker requirement. Started with a fresh shell for the Home page; properly added the hero image to fill full viewport on mobile; added section by section markup from the original Home page and fixed styles as needed. Followed [Bootstrap Documentation on Sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/).
@@ -301,6 +301,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   Fix: Set padding to rem units on i element (Font Awesome icon).
     -   Justification: I have been using rem units on as much sizing as possible with the intention of a smoother responsiveness between viewports.
 -   Issue: Profile page content on tablet view does not flow correctly.
+
+### Known Bugs
+-   Issue: On tablet 
 
 ## Deployment
 

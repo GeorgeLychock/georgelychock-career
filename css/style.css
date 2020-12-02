@@ -359,9 +359,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 20px;
 }
 
-.gl-profile-address {
-}
-
 .gl-profile-img img {
     height: 250px;
 }
@@ -452,7 +449,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gl-home-profile-content-r {
-    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.gl-home-profile-address {
+    margin-left: 2rem;
 }
 
 .gl-home-profile-heading {
@@ -527,14 +528,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* @media */
-    @media (min-width: 556px) and (max-width: 766px) {
+@media (min-width: 556px) and (max-width: 766px) {
     .gl-social-row {
         position: relative;
     }
+}
 
-    }
-
-   @media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px) {
     body {
         background-color: #fff;
     }
