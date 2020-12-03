@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
     padding-bottom: 10px;
     height: 60px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -167,6 +167,10 @@ h1, h2, h3, h4, h5, h6 {
     display: inline;
     margin-left: 6px;
     color: #fff;
+}
+
+.gl-banner-profile {
+    padding-right: 10px;
 }
 
 .gl-profile-icon {
@@ -430,13 +434,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Profile Section */
 .gl-home-profile-wrapper {
-    background-color: #000;
+    background-color: #f2f2f2;
     padding: 0;
     padding-bottom: 20px;
 }
 
 .gl-home-profile-row {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
     text-align: center;
 }
@@ -444,7 +448,7 @@ h1, h2, h3, h4, h5, h6 {
 .gl-home-profile-content, .gl-home-profile-content-r {
     padding-top: 20px;
     padding-left: 20px;
-    color: whitesmoke;
+    color: #000;
     text-align: left;
 }
 
@@ -458,7 +462,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .gl-home-profile-heading {
     padding-top: 40px;
-    color: wheat;
+    color: #000;
 }
 
 .gl-home-profile-img img {
@@ -471,13 +475,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Credentials Section */
 .gl-home-creds-container {
-    background-color: #f9ebd2;
+    background-color: #fcf5e8;
 }
 
 .gl-home-creds-wrapper {
-    height: 200px;
+    height: 160px;
     text-align: center;
-    margin-top: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .gl-home-my-creds-heading {
@@ -503,7 +508,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gl-home-creds-img-2 img {
-    height: 30px;
+    width: 100px;
 }
 
 .gl-home-creds-desc {
@@ -513,7 +518,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Home Site Links Section */
 .gl-home-site-links-wrapper {
     padding: 0;
-    height: 250px;
+    height: 225px;
 }
 
 /* Home Social Links Section */
@@ -556,7 +561,7 @@ h1, h2, h3, h4, h5, h6 {
         padding-top: 1rem;
         margin-bottom: 2rem;
         padding-bottom: 1rem;
-        max-width: 1000px;
+        max-width: 1200px;
         margin: auto;
     }
 
@@ -605,7 +610,7 @@ h1, h2, h3, h4, h5, h6 {
     .gl-social-row {
         margin-bottom: 0;
         padding-bottom: 0;
-        padding-top: 5px;
+        padding-top: 15px;
     }
 
     .gl-social-icon-lg a i {
