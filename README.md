@@ -295,6 +295,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Fixed Bugs after Testing
 -   Issue: On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
+    -   Fix: Adjusted the row divs style to be completely responsive across all viewports, portrait and landscape. Also adjusted the My Profile links to take up less width.
 -   Issue: Hero image does not properly fill the full viewport; mobile viewports either scroll or the site doesn't fil the entire screen leaving a black background visible at bottom.
     -   Fix: This was a major larger issue; properly sizing the hero image to fill the full height of the viewport was a blocker requirement. Started with a fresh shell for the Home page; properly added the hero image to fill full viewport on mobile; added section by section markup from the original Home page and fixed styles as needed. Followed [Bootstrap Documentation on Sizing](https://getbootstrap.com/docs/4.0/utilities/sizing/).
 -   Issue: On mobile view social nav icons do not center properly.
