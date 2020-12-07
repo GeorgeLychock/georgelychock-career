@@ -80,10 +80,16 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
-.gl-content-container {
+.gl-content-wrapper {
+    background-color: #fff;
+}
+
+/* duplicate style is to accomadate desktop adjustment w/o duplicating markup, see @media style below */
+.gl-content-wrapper2 {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #000;
+    color: whitesmoke;
 }
 
 .gl-content-row {
@@ -277,8 +283,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Content Area - Secondary Page */
+.gl-content-row {
+    margin: 0;
+}
+
+/* duplicate style is to accomadate desktop adjustment w/o duplicating markup, see @media style below */
+.gl-content-row2 {
+    margin: 0;
+    padding-top: 15px;
+}
+
+.gl-content-row3 {
+    padding: 15px 0;
+}
+
 .gl-content-1 {
-    margin: 8px;
+    margin: 0;
 }
 
 .gl-content-1 p {
@@ -332,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .progress-section {
-    margin: 20px 20px;
+    margin: 0 20px 20px 20px;
 }
 
 /* Profile */
@@ -583,9 +603,29 @@ h1, h2, h3, h4, h5, h6 {
         color: wheat;
     }
 
+    .gl-content-wrapper2 {
+        margin: 0;
+        padding: 0 0 50px 0;
+        background-color: #000;
+    }
+
     .gl-content-row {
         max-width: 1200px;
         margin: auto;
+    }
+
+    .gl-content-row2 {
+        max-width: 900px;
+        margin: auto;
+        padding: 0;
+    }
+
+    .gl-content-row3 {
+        max-width: 900px;
+        margin: auto;
+        padding: 0;
+        background-color: #000;
+        color: whitesmoke;
     }
 
     .gl-content-1 {
@@ -595,6 +635,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .gl-aside-1 {
         padding-left: 80px;
+        padding-right: 10px;
     }
 
     .gl-profile-wrapper {
