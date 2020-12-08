@@ -284,7 +284,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 10px;
 }
 
-/* duplicate style is to accomadate desktop adjustment w/o duplicating markup, see @media style below */
 .gl-content-row2 {
     margin: 0;
     padding-top: 15px;
@@ -360,6 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Profile */
 .gl-profile-wrapper {
     background-color: #000;
+    background: url(../images/marina-bay-sunset-quincy-ma.jpg) no-repeat center center;
     padding: 0;
     margin: 0;
     margin-left: 4px;
