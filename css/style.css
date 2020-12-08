@@ -359,10 +359,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Profile */
 .gl-profile-wrapper {
     background-color: #000;
-    background: url(../images/marina-bay-sunset-quincy-ma.jpg) no-repeat center center;
-    padding: 0;
+    padding: 0 0 10px 0;
     margin: 0;
-    margin-left: 4px;
     text-align: center;
 }
 
@@ -375,18 +373,15 @@ h1, h2, h3, h4, h5, h6 {
     color: wheat;
 }
 
-.gl-profile-content, .gl-profile-content-2, .gl-profile-content-3 {
+.gl-profile-content {
     color: whitesmoke;
     text-align: left;
     padding-top: 20px;
-}
-
-.gl-profile-content-3 {
-    padding-left: 20px;
+    padding-left: 20px !important;
 }
 
 .gl-profile-img img {
-    height: 250px;
+    max-width: 300px;
 }
 
 /* Portfolio */
@@ -628,7 +623,6 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .gl-profile-wrapper {
-        padding-left: 100px;
         margin: 0;
     }
 
