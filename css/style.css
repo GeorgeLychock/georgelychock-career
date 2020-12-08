@@ -92,10 +92,6 @@ h1, h2, h3, h4, h5, h6 {
     color: whitesmoke;
 }
 
-.gl-content-row {
-    padding-top: 10px;
-}
-
 .gl-container {
     margin: 0;
     padding: 0;
@@ -282,9 +278,10 @@ h1, h2, h3, h4, h5, h6 {
     color: wheat;
 }
 
-/* Content Area - Secondary Page */
+/* Content Area - Secondary Pages */
 .gl-content-row {
     margin: 0;
+    padding-top: 10px;
 }
 
 /* duplicate style is to accomadate desktop adjustment w/o duplicating markup, see @media style below */
@@ -306,6 +303,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
+.gl-content-heading-wrap {
+    background-color: #aaa;
+}
+
 .gl-content-heading {
     font-size: 2rem;
     color: #fff;
@@ -318,8 +319,9 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 15px;
 }
 
-.gl-contentheading-wrap {
-    background-color: #aaa;
+.gl-content-title {
+    margin-bottom: 15px;
+    font-weight: 600;
 }
 
 /* Work History */
@@ -391,18 +393,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Education */
-.gl-education-wrapper {
-    margin-bottom: 40px;
-}
 
-.gl-education-wrapper p {
-    margin-left: 10px;
-}
-
-.gl-education-heading {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
 
 /* Social Links */
 .gl-social-row {
