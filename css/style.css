@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gl-navbar a:hover {
-    color: whitesmoke;
+    color: #69f;
 }
 
 .btn--red {
@@ -647,6 +647,11 @@ h1, h2, h3, h4, h5, h6 {
     .gl-profile-content-2 {
         margin-left: 10px;
         margin-top: 50px;
+    }
+
+    .gl-profile-row {
+        max-width: 1200px;
+        margin: auto;
     }
 
     .gl-social-row {
