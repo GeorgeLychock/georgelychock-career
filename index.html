@@ -15,7 +15,7 @@
     <main>
         <!-- Master Container - Mobile -->
         <div class="min-vh-100 d-md-none gl-vp-master">
-            <!-- Banner Section - Smartphone Only -->
+            <!-- Banner Section - Mobile -->
             <nav class="container-fluid gl-container">
                 <div class="row no-gutters fixed-top gl-banner-row">
                     <div class="col gl-banner-col">
@@ -29,8 +29,8 @@
                     </div>
                 </div>
             </nav>
-            <!-- /Banner Section - Smartphone Only -->
-            <!-- Hero Section -->
+            <!-- /Banner Section - Mobile -->
+            <!-- Hero Section - Mobile -->
             <header class="container-fluid gl-container">
                 <!-- Title Section -->
                 <div class="row no-gutters">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <!-- /Title Section -->
-                <!-- Nav Icon Section - for Smartphone Only -->
+                <!-- Nav Icon Section - Mobile -->
                 <nav class="row no-gutters gl-nav-icon-row">
                     <div class="col-6 col-md-3">
                         <div class="gl-nav-icon-item">
@@ -73,8 +73,8 @@
                         </div>
                     </div>
                 </nav>
-                <!-- /Nav Icon Section for Smartphone Only-->
-                <!-- Social Links Section  for Smartphone Only-->
+                <!-- /Nav Icon Section - Mobile -->
+                <!-- Social Links Section - Mobile -->
                 <nav class="row no-gutters gl-social-row fixed-bottom">
                     <div class="col">
                         <div>
@@ -115,7 +115,7 @@
                         </div>
                     </div>
                 </nav>
-                <!-- /Social Links Section  for Smartphone Only-->
+                <!-- /Social Links Section - Mobile -->
             </header>
             <!-- /Hero Sections -->
         </div>
@@ -265,7 +265,10 @@
                 <div class="col-3">
                     <div class="gl-home-creds-item">
                         <div class="gl-home-creds-img">
-                            <img src="images/project-management-professional-pmp.png" alt="PMI PMP Logo">
+                            <button class="btn btn-lg" data-toggle="modal"
+                                data-target="#viewCertImageModal"><img
+                                    src="images/project-management-professional-pmp.png" alt="PMI PMP Logo">
+                            </button>
                             <div class="gl-home-creds-title">PMI PMP &#8482;</div>
                             <div class="gl-home-creds-desc">August, 2020</div>
                         </div>
@@ -351,7 +354,24 @@
         </footer>
         <!-- /Desktop/Tablet Markup -->
     </main>
-
+    <!-- Bootstrap Modal Component Markup -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="viewCertImageModal" aria-labelledby="PMP Certification Modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PMI PMP Certification 2020</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="images/project-management-professional-pmp-cred.jpg" alt="PMI PMP Credential Image from Credly" width="400px"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-close" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup -->
     <!-- Load Bootstrap js and its dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
