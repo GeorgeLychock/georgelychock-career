@@ -521,20 +521,18 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 5px;
 }
 
-.gl-home-creds-title-2 {
-    margin-top: 25px;
-}
-
 .gl-home-creds-img img {
     height: 50px;
 }
 
-.gl-home-creds-img-2 img {
-    width: 100px;
-}
-
 .gl-home-creds-desc {
     font-size: .75rem;
+}
+
+.gl-home-creds-link {
+    font-size: .75rem;
+    text-decoration: none;
+    color: #f05f40;
 }
 
 /* Home Site Links Section */

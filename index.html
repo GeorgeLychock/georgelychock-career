@@ -270,6 +270,9 @@
                             </button>
                             <div class="gl-home-creds-title">PMI PMP &#8482;</div>
                             <div class="gl-home-creds-desc">August, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewPMPCertModal">View Credential
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -277,29 +280,42 @@
                     <div class="gl-home-creds-item">
                         <div class="gl-home-creds-img">
                             <button class="btn btn-lg" data-toggle="modal" data-target="#viewLSSCertModal"><img
-                                    src="images/lean-six-sigma-greenbelt-cert.jpg" alt="Lean Six Sigma Certidfication Image">
+                                    src="images/lean-six-sigma-greenbelt-cert.jpg"
+                                    alt="Lean Six Sigma Certidfication Image">
                             </button>
                             <div class="gl-home-creds-title">Lean Six Sigma Green Belt</div>
                             <div class="gl-home-creds-desc">William George Group, July, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewLSSCertModal">View Credential
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="gl-home-creds-item">
                         <div class="gl-home-creds-img">
-                            <img src="images/ms-project-cert.jpg"
-                                alt="Microsoft Project Certificate from Williams George Associates">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewMSPTrainingModal"><img
+                                    src="images/ms-project-cert.jpg" alt="Microsoft Project Training Image">
+                            </button>
                             <div class="gl-home-creds-title">Microsoft Project &#8482; Training</div>
                             <div class="gl-home-creds-desc">William George Group, July, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewMSPTrainingModal">View Credential
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="gl-home-creds-item">
-                        <div class="gl-home-creds-img-2">
-                            <img src="images/safe-scaled-agile-logo.png" alt="Link to the Safe - Scaled Agile website">
-                            <div class="gl-home-creds-title-2">SAFe Agilist (SA) &#8482; Training</div>
+                        <div class="gl-home-creds-img">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewScaledCertModal"><img
+                                    src="images/safe-scaled-agile-logo.png" alt="Safe - Scaled Agile Image">
+                            </button>
+                            <div class="gl-home-creds-title">SAFe Agilist (SA) &#8482; Training</div>
                             <div class="gl-home-creds-desc">2 Day Training and Exam, May 31, 2017</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewScaledCertModal">View Credential
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -375,7 +391,8 @@
     </div>
     <!-- / Bootstrap Modal Component Markup - PMP Credential -->
     <!-- Bootstrap Modal Component Markup - Lean Six Credential -->
-    <div class="modal" tabindex="-1" id="viewLSSCertModal" aria-labelledby="PMP Certification Modal" aria-hidden="true">
+    <div class="modal" tabindex="-1" id="viewLSSCertModal" aria-labelledby="Lean Six Sigma Certification Modal"
+        aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -394,6 +411,47 @@
         </div>
     </div>
     <!-- / Bootstrap Modal Component Markup - Lean Six Credential -->
+    <!-- Bootstrap Modal Component Markup - MS Project Credential -->
+    <div class="modal" tabindex="-1" id="viewMSPTrainingModal" aria-labelledby="Microsoft Project Training Modal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Microsoft Project Training 2020</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="images/ms-project-cert.jpg"
+                            alt="Microsoft Project training certificate with William George Associates" width="400px">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - MS Project Credential -->
+    <!-- Bootstrap Modal Component Markup - Scaled Agile Credential -->
+    <div class="modal" tabindex="-1" id="viewScaledCertModal" aria-labelledby="Safe Agilist Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SAFe Agilist 2017</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="images/safe-scaled-agile-cert.png" alt="SAFe Agilist certificate" width="400px"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - Scaled Agile Credential -->
 
     <!-- Load Bootstrap js and its dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
