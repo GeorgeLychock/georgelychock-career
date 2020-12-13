@@ -439,9 +439,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Profile Section */
 .gl-home-profile-wrapper {
-    background-color: #333;
+    background-color: #666;
     padding: 0;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 .gl-home-profile-row {
@@ -497,14 +497,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home Credentials Section */
 .gl-home-creds-container {
-    background-color: #fcf5e8;
+    background-color: whitesmoke;
 }
 
 .gl-home-creds-wrapper {
-    height: 160px;
     text-align: center;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .gl-home-my-creds-heading {
@@ -538,7 +538,8 @@ h1, h2, h3, h4, h5, h6 {
 /* Home Site Links Section */
 .gl-home-site-links-wrapper {
     padding: 0;
-    height: 225px;
+    background-color: #333;
+    color: whitesmoke;
 }
 
 /* Home Social Links Section */
@@ -589,17 +590,17 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 10px;
         height: 150px;
         border: none;
-        background-color: white;
+        background-color: #333;
     }
 
     .gl-nav-icon-item a {
-        color: #000;
+        color: #fff;
         font-size: 1.25rem;
     }
 
     .gl-nav-icon {
         margin-top: 20px;
-        font-size: 3rem;
+        font-size: 2rem;
         color: wheat;
     }
 
