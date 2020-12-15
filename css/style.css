@@ -27,24 +27,6 @@
 /*########## /CSS TOC */
 
 
-.gl-vp-master {
-    background-color: #9cf;
-    background: url("../images/hero-bridgewater-milling-machineshop-bw-2200w.jpg") no-repeat center center;
-}
-
-.gl-desktop-container {
-    max-width: 1200px;
-}
-
-
-
-
-
-
-
-
-
-
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
@@ -99,6 +81,15 @@ h1, h2, h3, h4, h5, h6 {
 .gl-description {
     padding-left: 20px;
     margin-top: 10px;
+}
+
+.gl-vp-master {
+    background-color: #9cf;
+    background: url("../images/hero-bridgewater-milling-machineshop-bw-2200w.jpg") no-repeat center center;
+}
+
+.gl-desktop-container {
+    max-width: 1200px;
 }
 
 /* Navbar */
