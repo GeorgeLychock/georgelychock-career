@@ -5,8 +5,7 @@
 
 [View the live project here.](http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html)
 
-This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site will replace my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed or sampled' code will be documented below.
-
+This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site replaces my Bootstrap3 site that currently exists at www.georgelychock-career.com. I plan to use a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code will be completely new and any 'borrowed or sampled' code will be documented below
 ##### Possible landing page image, carried over from BS3 site:
 <h1  align="center"><img src="http://www.georgelychock-career.com/images/glcareer-opener-03-750w.png"></h1>
 
@@ -229,7 +228,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2020-11-22.png)
     - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2020-11-23.png)
     - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2020-11-23.png)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2020-11-18.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2020-12-14.png)
 
 -   ### Testing User Stories from User Experience (UX) Section
     -   #### General User Experience
@@ -304,7 +303,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Issue: Profile page content on tablet view does not flow correctly.
 
 ### Known Bugs
--   Issue: On tablet 
+-   Issue: 
 
 ## Deployment
 
