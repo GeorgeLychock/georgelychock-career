@@ -190,6 +190,16 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
 }
 
+.gl-download-2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gl-download-2 a {
+    text-decoration: none;
+    color: #df4929;
+}
+
 .gl-home-icon {
     color: #9cf;
     margin-left: 6px;
