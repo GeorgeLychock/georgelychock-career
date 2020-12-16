@@ -67,6 +67,12 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Profile Page
         -   The Profile page should have a different look and feel and Content Area struture than the other pages of the website; this will probably be finished in a R2 of the site.
 
+### Project Folder Structure
+    -   All secondary html pages are located in the pages/ folder.
+    -   All images are located in the images/ folder
+    -   Any document content (eg resume pdf) is located in the content/ folder
+    -   The css/ folder is located directly off the root folder
+
 -   ### Wireframes
 
     -   Desktop Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
@@ -307,11 +313,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Deployment
 
-### Project Folder Structure
--   All secondary html pages are located in the pages/ folder.
--   All images are located in the images/ folder
--   Any document content (eg resume pdf) is located in the content/ folder
--   The css/ folder is located directly off the root folder
+
 
 ### Hosting www.georgelychock-career.com
 
@@ -320,18 +322,18 @@ The project was deployed to my hosting service:
 1. URL: http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html
 2. All files were uploaded via FileZilla FTP.
 
-## *REPO CLOANING INFORMATION TK*
+## *CLOANING INFORMATION from CODE INSTITUTE README.md template from User Centric Module*
 ### Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [georgelychock-career GitHub Repository](https://github.com/GeorgeLychock/georgelychock-career)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [georgelychock-career GitHub Repository](https://github.com/GeorgeLychock/georgelychock-career)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
