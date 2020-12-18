@@ -264,7 +264,6 @@ h1, h2, h3, h4, h5, h6 {
 .gl-icon-row-p2 {
     background-color: #d9d9d9;
     text-align: center;
-    margin-top: 70px;
 }
 
 .gl-nav-icon-p2 {
@@ -285,11 +284,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .gl-content-row2 {
     margin: 0;
-    padding-top: 15px;
+    padding-top: 120px;
 }
 
 .gl-content-row3 {
     padding: 15px 0;
+}
+
+.gl-content-row4 {
+    margin: 0;
+    padding-top: 15px;
 }
 
 .gl-content-1 {
@@ -633,6 +637,12 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0;
         background-color: #000;
         color: whitesmoke;
+    }
+
+    .gl-content-row4 {
+        max-width: 900px;
+        margin: auto;
+        padding: 0;
     }
 
     .gl-content-1 {
