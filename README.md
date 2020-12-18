@@ -3,7 +3,7 @@
 
 <h1 align="center">George Lychock Career Website</h1>
 
-[View the live project here.](http://www.georgelychock-career.com/pages/test/glcareerupdate/index.html)
+[View the live project here.](https://georgelychock.github.io/georgelychock-career/)
 
 This is the main career website for George Lychock. It contains all the job, education, and professional development information for George Lychock. This site replaces my Bootstrap3 site that currently exists at www.georgelychock-career.com. I used a hybrid of the existing content, learned modules from the CI lesson plan, and other resources I have found along the way, but all the code is completely new and any 'borrowed or sampled' code is documented below and in html files.
 
@@ -317,7 +317,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 The project was deployed to GitHub Pages hosting service:
 
-URL: https://georgelychock.github.io/georgelychock-career/
+[URL to GitHub Pages Site](https://georgelychock.github.io/georgelychock-career/)
 
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
