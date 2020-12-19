@@ -25,7 +25,7 @@ This is the main career website for George Lychock. It contains all the job, edu
                 2.  All images should have alt text
                 3.  Icons should be consistent across viewports
                 4.  Indentation (margins and padding) should be structurally similar across viewports
-                5.  Pages and sections use the same names throughout the site ei when refering to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
+                5.  Pages and sections use the same names throughout the site ie when referring to Work History, it's not later referred to Work Experience or Job Summary etc somewhere else in the site or on site nav
                 6.  All fonts are consistent for each section and element across all viewports
                 7.  All documents and links to external sites should open a new tab in the browser
                 8.  Any page or internal site links should never open a new browser tab
@@ -38,20 +38,20 @@ This is the main career website for George Lychock. It contains all the job, edu
                 3.  Access to George's Profile page must be present on all pages, all viewports.
 
     -   #### Hiring Manager Experience
-        1.  As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
+        1.  As a Hiring Manager, I want to quickly access more detailed information that shows me George is a good candidate for the position.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
                 2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
                 3.  One Click access to George's Work History
-                4.  A skills summary page needs to be present
+                4.  A Skills summary page needs to be present
                 5.  An Education and/or Professional Development page needs to be present
 
     -   #### Casual Visitor Experience
-        1.  As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
+        1.  As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn from an example as to how I may enhance my future sites.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Mobile experience on Home page should not require a scroll to view entire Home page content
                 2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
-                3.  Use at least one advanced Bootstrap component on the site.
+                3.  Use at least one advanced Bootstrap components on the site.
 
 -   ### Design
     -   #### Colour Scheme
