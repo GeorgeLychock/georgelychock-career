@@ -73,9 +73,7 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### Wireframes
 
-    -   Desktop Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
-
-    -   Mobile Wireframe (Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-scrolling-home.pdf)
+    -   Desktop and Tablet Wireframe - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-desk-01.pdf)
 
     -   Mobile Wireframe (No Scrolling Home Version) - [View](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/georgelychock-career-smart-01-no-scrolling-home.pdf)
 
@@ -152,20 +150,18 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### Home
     -   Use a hero image that is personally connected to George
-    -   Mobile experience will be a single screen with nav icons and no scrolling to add'l content
-    -   Desktop and tablet expiences will have a scrolling Home page with a hero image, nav icon section, social media links section, and a cerifications section
+    -   Mobile landing page experience will be a single screen with nav icons and no scrolling to add'l content
+    -   Desktop and tablet experiences will have a scrolling Home page with a hero image, nav icon section, social media links section, profile section, and a cerifications section
     -   Download button and connected text should float right, md and higher viewports
     -   A My Profile link should float right with the Resume link on the smartphone top banner area
 
 *   ### Future Reqs
     *   *Capture furture release reqs here*
-    *   Address responsive issues with tablet viewports, specifically Home and Profile pages
     *   Add a "About Hero Image" modal or link to page ref
     *   Add a timeline graphic to the Work History page
     *   Review adding Profile and Creds section on L1 pages
     *   Apply minor column structure to desktop view for Skills and Work History pages
     *   Update profile picture
-    *   Make nav icons on mobile view fixed top
 
 ## Approved Features and Initial Release Strategy
 
@@ -203,23 +199,21 @@ Release 2
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Montserrat' and 'Raleway' fonts into the style.css file which is used on all pages throughout the project.
 3. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add icons to nav items.
 4. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap.
 5. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing Visual Studio on my Linux laptop to commit to Git and Push to GitHub.
 6. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 7. [Fireworks:](https://www.adobe.com/ca/products/fireworks.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - Fireworks was used to create and size the images for the website.
 8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/_wireframes/) during the design process.
 9. [Jira:](https://www.atlassian.com/software/jira)
     - Jira was used to track spints and work logs for all work done on the site.
-10. [Confluence:](https://www.atlassian.com/software/confluence)
-    - Confluence was used to document all information around scoping, structure, technologies, and releases for this project.
 
 
 ## Testing
