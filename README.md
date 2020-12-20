@@ -59,13 +59,13 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   #### Typography
         -   Two Google fonts, Montserrat is used for headings and titles, Raleway is used for all running text and nav items.
     -   #### Imagery
-        -   Images are kept to a minimum. A hero image that corresponds to George's PD/Education is used. There is an image of George on a profile page/section.
+        -   Images are kept to a minimum. A hero image that corresponds to my PD/Education is used. There is an image of me on a profile page/section.
     -   #### Iconography
         -   Icons are used in nav elements, social media elements, using Font Awesome icons.
     -   #### Profile Page
         -   The Profile page has a different look and feel and Content Area struture than the other pages of the website; this will probably be upgraded in a R2 of the site.
 
-### Project Folder Structure
+-   ### Project Folder Structure
     -   All secondary html pages are located in the pages/ folder.
     -   All images are located in the images/ folder
     -   Any document content (eg resume pdf) is located in the content/ folder
