@@ -125,7 +125,7 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Content Item, Long Description
             -   Social Media Links
         
-        -   *Third Level pages may be ommited if # of content items doesn't require the extra level of structure/display
+        *Third Level pages may be ommited if # of content items doesn't require the extra level of structure/display
 
 -   ### General Requirements
     -   Alt text all images
