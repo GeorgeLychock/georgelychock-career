@@ -88,7 +88,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     -   Site navigation needs to be simple, no dropdowns, no nav button on smartphone view
 
 -   ### Structure Reqs
-    -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, team will iterate to finalize this requirement
+    -   Desire to have Home landing page non-scrolling on all viewports, this might not be attainable, and it may be more desirable to have scrolling on desktop but non-scrolling on smartphone, I will iterate to finalize this requirement
     -   Three (3) screen max click path to any content on the site
     -   Resume download to be present at top on all screens, all viewports, fixed to top
     -   Persistent social media icons in footer for all screens, all viewports
@@ -124,7 +124,8 @@ This is the main career website for George Lychock. It contains all the job, edu
             -   Nav (to Content Area Landing Pages eg Work History)
             -   Content Item, Long Description
             -   Social Media Links
-        *Third Level pages may be ommited if # of content items doesn't require the extra level of structure/display
+        
+        -   *Third Level pages may be ommited if # of content items doesn't require the extra level of structure/display
 
 -   ### General Requirements
     -   Alt text all images
