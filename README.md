@@ -55,15 +55,15 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### Design
     -   #### Colour Scheme
-        -   The color scheme is dictated by the hero image color profile. The image is an original photo taken by myself at a machine shop class in 2018. The final color scheme will have to be iterated over to the R2 release given time contraints. The desire is to ultimately have a brighter color scheme.
+        -   The color scheme is dictated by the hero image color profile. The image is an original photo taken by myself at a machine shop class in 2018. The final color scheme will have to be iterated over to the R2 release given time contraints. The desire is to ultimately have a brighter/whiter color scheme.
     -   #### Typography
         -   Two Google fonts, Montserrat is used for headings and titles, Raleway is used for all running text and nav items.
     -   #### Imagery
-        -   Images will be kept to a minimum, most likely just a hero image of something that corresponds to George's PD or Education. There will be an image of George on a profile page.
+        -   Images are kept to a minimum. A hero image that corresponds to George's PD/Education is used. There is an image of George on a profile page/section.
     -   #### Iconography
-        -   Use icons in nav elements, social media elements, using Font Awesome icons.
+        -   Icons are used in nav elements, social media elements, using Font Awesome icons.
     -   #### Profile Page
-        -   The Profile page should have a different look and feel and Content Area struture than the other pages of the website; this will probably be finished in a R2 of the site.
+        -   The Profile page has a different look and feel and Content Area struture than the other pages of the website; this will probably be upgraded in a R2 of the site.
 
 ### Project Folder Structure
     -   All secondary html pages are located in the pages/ folder.
