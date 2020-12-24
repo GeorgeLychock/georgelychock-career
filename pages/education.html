@@ -224,58 +224,74 @@
             </div>
         </article>
         <!-- /Content Area -->
-        <aside>
-            <!-- Desktop/Tablet Home Sub Sections - Credentials Section -->
-            <div class="container-fluid d-none d-md-block gl-home-creds-container">
-                <div class="row no-gutters">
-                    <div class="col gl-home-my-creds-heading">
-                        <h3>My Recent Certifications</h3>
+        <!-- Desktop/Tablet Home Sub Sections - Credentials Section -->
+        <aside class="container-fluid d-none d-md-block gl-home-creds-container">
+            <div class="row no-gutters">
+                <div class="col gl-home-my-creds-heading">
+                    <h3>My Recent Certifications</h3>
+                </div>
+            </div>
+            <div class="row no-gutters gl-home-creds-wrapper">
+                <div class="col-3">
+                    <div class="gl-home-creds-item">
+                        <div class="gl-home-creds-img">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewPMPCertModal"><img
+                                    src="../images/project-management-professional-pmp.png" alt="PMI PMP Logo">
+                            </button>
+                            <div class="gl-home-creds-title">PMI PMP &#8482;</div>
+                            <div class="gl-home-creds-desc">August, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewPMPCertModal">View Credential
+                            </button>
+                        </div>
                     </div>
                 </div>
-                <div class="row no-gutters gl-home-creds-wrapper">
-                    <div class="col-3">
-                        <div class="gl-home-creds-item">
-                            <div class="gl-home-creds-img">
-                                <img src="../images/project-management-professional-pmp.png" alt="PMI PMP Logo">
-                                <div class="gl-home-creds-title">PMI PMP &#8482;</div>
-                                <div class="gl-home-creds-desc">August, 2020</div>
-                            </div>
+                <div class="col-3">
+                    <div class="gl-home-creds-item">
+                        <div class="gl-home-creds-img">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewLSSCertModal"><img
+                                    src="../images/lean-six-sigma-greenbelt-cert.jpg"
+                                    alt="Lean Six Sigma Certidfication Image">
+                            </button>
+                            <div class="gl-home-creds-title">Lean Six Sigma Green Belt</div>
+                            <div class="gl-home-creds-desc">William George Group, July, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewLSSCertModal">View Credential
+                            </button>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="gl-home-creds-item">
-                            <div class="gl-home-creds-img">
-                                <img src="../images/ms-project-cert.jpg"
-                                    alt="Lean Six Sigma Green Belt Certificate from Williams George Associates">
-                                <div class="gl-home-creds-title">Lean Six Sigma Green Belt</div>
-                                <div class="gl-home-creds-desc">William George Group, July, 2020</div>
-                            </div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-home-creds-item">
+                        <div class="gl-home-creds-img">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewMSPTrainingModal"><img
+                                    src="../images/ms-project-cert.jpg" alt="Microsoft Project Training Image">
+                            </button>
+                            <div class="gl-home-creds-title">Microsoft Project &#8482; Training</div>
+                            <div class="gl-home-creds-desc">William George Group, July, 2020</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewMSPTrainingModal">View Credential
+                            </button>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="gl-home-creds-item">
-                            <div class="gl-home-creds-img">
-                                <img src="../images/ms-project-cert.jpg"
-                                    alt="Microsoft Project Certificate from Williams George Associates">
-                                <div class="gl-home-creds-title">Microsoft Project &#8482; Training</div>
-                                <div class="gl-home-creds-desc">William George Group, July, 2020</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="gl-home-creds-item">
-                            <div class="gl-home-creds-img">
-                                <img src="../images/safe-scaled-agile-logo.png"
-                                    alt="Link to the Safe - Scaled Agile website">
-                                <div class="gl-home-creds-title">SAFe Agilist (SA) &#8482; Training</div>
-                                <div class="gl-home-creds-desc">2 Day Training and Exam, May 31, 2017</div>
-                            </div>
+                </div>
+                <div class="col-3">
+                    <div class="gl-home-creds-item">
+                        <div class="gl-home-creds-img">
+                            <button class="btn btn-lg" data-toggle="modal" data-target="#viewScaledCertModal"><img
+                                    src="../images/safe-scaled-agile-logo.png" alt="Safe - Scaled Agile Image">
+                            </button>
+                            <div class="gl-home-creds-title">SAFe Agilist (SA) &#8482; Training</div>
+                            <div class="gl-home-creds-desc">2 Day Training and Exam, May 31, 2017</div>
+                            <button class="btn btn-lg gl-home-creds-link" data-toggle="modal"
+                                data-target="#viewScaledCertModal">View Credential
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- /Desktop/Tablet Home Sub Sections - Credentials Section -->
         </aside>
+        <!-- /Desktop/Tablet Home Sub Sections - Credentials Section -->
         <footer>
             <!-- Social Links Section-->
             <nav class="row no-gutters gl-social-row">
@@ -321,7 +337,98 @@
             <!-- /Social Links Section  for Smartphone Only-->
         </footer>
     </main>
-
+    <!-- Bootstrap Modal Component Markup - PMP Credential -->
+    <div class="modal" tabindex="-1" id="viewPMPCertModal" aria-labelledby="PMP Certification Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">PMI PMP Certification 2020</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="../images/project-management-professional-pmp-cred.jpg"
+                            alt="PMI PMP Credential Image from Credly" width="400px"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gl-home-creds-modal-link"><a
+                            href="https://www.youracclaim.com/badges/4cbc84cd-e9a7-43a1-b7d7-1ee060ca2ef7/public_url"
+                            target="_blank">View Live</a></button>
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - PMP Credential -->
+    <!-- Bootstrap Modal Component Markup - Lean Six Credential -->
+    <div class="modal" tabindex="-1" id="viewLSSCertModal" aria-labelledby="Lean Six Sigma Certification Modal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Lean Six Sigma Certification 2020</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="../images/lean-six-sigma-greenbelt-cert.jpg"
+                            alt="Lean Six Sigma Certification from William George Associates" width="400px"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gl-home-creds-modal-link"><a
+                            href="education.html">Read More</a></button>
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - Lean Six Credential -->
+    <!-- Bootstrap Modal Component Markup - MS Project Credential -->
+    <div class="modal" tabindex="-1" id="viewMSPTrainingModal" aria-labelledby="Microsoft Project Training Modal"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Microsoft Project Training 2020</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="../images/ms-project-cert.jpg"
+                            alt="Microsoft Project training certificate with William George Associates" width="400px">
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gl-home-creds-modal-link"><a
+                            href="education.html">Read More</a></button>
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - MS Project Credential -->
+    <!-- Bootstrap Modal Component Markup - Scaled Agile Credential -->
+    <div class="modal" tabindex="-1" id="viewScaledCertModal" aria-labelledby="Safe Agilist Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SAFe Agilist 2017</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <p><img src="../images/safe-scaled-agile-cert.png" alt="SAFe Agilist certificate" width="400px"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary gl-home-creds-modal-link"><a
+                            href="https://www.youracclaim.com/badges/5c640c7b-4802-41cc-8511-7ccf8a12d192"
+                            target="_blank">View Live</a></button>
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Bootstrap Modal Component Markup - Scaled Agile Credential -->
     <!-- Load Bootstrap js and its dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

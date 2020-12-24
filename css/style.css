@@ -361,7 +361,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Profile */
 .gl-profile-wrapper {
-    background-color: #000;
     padding: 0 0 10px 0;
     margin: 0;
     text-align: center;
@@ -657,6 +656,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .gl-profile-wrapper {
         margin: 0;
+        background: url(../images/profile-image-01.jpg) no-repeat center center;
     }
 
     .gl-profile-content-2 {
