@@ -371,7 +371,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 20px;
 }
 
-.gl-profile-heading {
+.gl-profile-heading-row {
+    padding: 0;
+    padding-top: 120px;
     color: wheat;
 }
 
@@ -382,8 +384,20 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 20px !important;
 }
 
+.gl-profile-address {
+    color: wheat;
+}
+
 .gl-profile-img img {
     max-width: 300px;
+}
+
+.gl-profiles {
+    color: wheat;
+}
+
+.gl-profiles ul li a {
+    color: whitesmoke;
 }
 
 /* Portfolio */
@@ -659,14 +673,13 @@ h1, h2, h3, h4, h5, h6 {
         background: url(../images/profile-image-01.jpg) no-repeat center center;
     }
 
-    .gl-profile-content-2 {
-        margin-left: 10px;
-        margin-top: 50px;
-    }
-
     .gl-profile-row {
         max-width: 1200px;
         margin: auto;
+    }
+
+    .gl-profile-heading-row {
+        padding-top: 30px;
     }
 
     .gl-social-row {
