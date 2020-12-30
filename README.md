@@ -162,6 +162,7 @@ This is the main career website for George Lychock. It contains all the job, edu
     *   Review adding Profile and Creds section on L1 pages
     *   Apply minor column structure to desktop view for Skills and Work History pages
     *   Update profile picture
+    *   Add a Soft Skills progress bar section to Skills page
 
 ## Approved Features and Initial Release Strategy
 
@@ -184,8 +185,6 @@ Release 2
 -   Updated profile picture of George
 -   Method to show what I work on outside of my main career
 -   Create an About Hero Image modal
-
-
 
 ## Technologies Used
 
@@ -228,6 +227,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2020-11-23.png)
     - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2020-11-23.png)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2020-12-14.png)
+-   [Lighthouse](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options)
+    - [Results: Desktop Report - Home (index)](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/gl-career-lighthouse-desktop-index.jpg)
+    - [Results: Desktop Report - Home (index)](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/gl-career-lighthouse-mobile-index.jpg)
 
 -   ### Testing User Stories from User Experience (UX) Section
     -   #### General User Experience
@@ -288,8 +290,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The Website was tested on Google Chrome, Firefox and Safari browsers.
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone6, iPad8.
--   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Testing was done to ensure that all pages were linking correctly.
 -   A design professional friend of mine spent 30 minutes with me reviewing the overall design after all pages were constructed and styled.
+-   All pages were given at least one cold read.
+-   Used Lighthouse to identify areas on improvement which are documented below in Fixed Bugs after Testing.
 
 ### Fixed Bugs after Testing
 -   Issue: On tablet viewports the My Profile Section overflows on the Credentials Section on Home page.
@@ -299,7 +303,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Issue: On mobile view social nav icons do not center properly.
     -   Fix: Set padding to rem units on i element (Font Awesome icon).
     -   Justification: I have been using rem units on as much sizing as possible with the intention of a smoother responsiveness between viewports.
--   Issue: Profile page content on tablet view does not flow correctly.
+-   Lighthouse Issue: Site wasn't using rel="noreferrer" attribute on the a links
+    -   Fix: Added the att to all a links
+-   Lighthouse Issue: missing meta description tag
+    -   Added the meta tag to all pages
+
 
 ### Known Bugs
 -   Issue: 
