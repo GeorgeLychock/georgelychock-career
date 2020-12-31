@@ -292,7 +292,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   ##### Results
                 -   (1) PASS; Scrolling on mobie Home page is minimal but all content is viewable on iPhone6/Safari [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_1-screenshotfrom2020-12-30.jpg)
                 -   (2) PASS; Home page on tablet and desktop shows a profile, credentials, and nav bar that is not seen on mobile [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_2-screenshotfrom2020-12-30.jpg)
-                -   (2) PASS; Skills page uses the Progress Bootstrap component [BS Doc](https://getbootstrap.com/docs/5.0/components/progress/) [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_3-screenshotfrom2020-12-30.jpg)
+                -   (2) PASS; Skills page uses the Bootstrap Progress component [BS Doc](https://getbootstrap.com/docs/5.0/components/progress/) [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_3-screenshotfrom2020-12-30.jpg)
 
 
 ### Further Testing
@@ -319,7 +319,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 ### Known Bugs
--   Issue: 
+-   None at this time 
 
 ## Deployment
 
@@ -343,8 +343,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## *CLOANING INFORMATION from CODE INSTITUTE README.md template from User Centric Module*
 ### Forking the GitHub Repository
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log in to GitHub and locate the [georgelychock-career GitHub Repository](https://github.com/GeorgeLychock/georgelychock-career)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
