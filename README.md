@@ -12,14 +12,14 @@ This is the main career website for George Lychock. It contains all the job, edu
 
 -   ### User stories
     -   #### General User Experience
-        1.  As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+        1.  **Story 1** As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  The most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
                 3.  Nav dropdown (collapse) is *prohibited*
                 4.  Either links to sub pages and/or Home should be visible on any page at any scroll point on any viewport.
 
-        2.  As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+        2.  **Story 2** As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  All content has to be accessible from desktop, tablet, or mobile device.
                 2.  All images should have alt text
@@ -31,14 +31,14 @@ This is the main career website for George Lychock. It contains all the job, edu
                 8.  Any page or internal site links should never open a new browser tab
 
     -   #### Recruiter and HR Contact Experience
-        1.  As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+        1.  **Story 3** As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
                 2.  Access to the most recently published resume must be present on all pages, all viewports.
                 3.  Access to George's Profile page must be present on all pages, all viewports.
 
     -   #### Hiring Manager Experience
-        1.  As a Hiring Manager, I want to quickly access more detailed information that shows me George is a good candidate for the position.
+        1.  **Story 4** As a Hiring Manager, I want to quickly access more detailed information that shows me George is a good candidate for the position.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
                 2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
@@ -47,7 +47,7 @@ This is the main career website for George Lychock. It contains all the job, edu
                 5.  An Education and/or Professional Development page needs to be present
 
     -   #### Casual Visitor Experience
-        1.  As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn from an example as to how I may enhance my future sites.
+        1.  **Story 5** As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn from an example as to how I may enhance my future sites.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Mobile experience on Home page should not require a scroll to view entire Home page content
                 2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
@@ -233,7 +233,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   ### Testing User Stories from User Experience (UX) Section
     -   #### General User Experience
-        1.  Story 1 As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
+        1.  **Story 1** As a Site Visitor, I want to have a persistent navigation element/method allowing me to jump to any site content quickly.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  The most detailed Content is never more than **two clicks** away from home.
                 2.  Home is always **one click** away from anywhere on the site.
@@ -244,7 +244,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   (3) PASS No nav icon nor dropdown exists'
                 -   (4) PASS Every sub page has at least the Home icon visible at all times, all ports. [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userst-1_4-screenshotfrom2020-11-23.png)
 
-        2.  Story 2 As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
+        2.  **Story 2** As a Site Visitor, I want to have a similar experience whether desktop, tablet, or mobile, so that I can later access information in a similar manner if I change devices.
             -  ##### Acceptance Criteria Duplicated in Testing below
                 1.  All content has to be accessible from desktop, tablet, or mobile device.
                 2.  All images should have alt text
@@ -262,7 +262,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   (7, 8) PASS All links open correctly.
 
     -   #### Recruiter and HR Contact Experience
-        1.  Story 3 As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
+        1.  **Story 3** As a Recruiter, I want to easily understand what types of information about George Lychock will be available so I can determine if George has minimum requirements to be considered further. 
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Upon landing at the site an immediate indication needs to be present that communicates to the user what main categories of information are available to view.
                 2.  Access to the most recently published resume must be present on all pages, all viewports.
@@ -272,7 +272,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   2 and 3 validation can be seen here [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-3_2-3-screenshotfrom2020-12-30.jpg)
 
     -   #### Hiring Manager Experience
-        1.  Story 4 As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
+        1.  **Story 4** As a Hiring Manager, I want to access quickly the information that shows me George is a good candidate for the position.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  A link to George's most relavent published resume (one that aligns with LinkedIn, Indeed, etc.) needs to be accessible and immediately present upon entering the site.
                 2.  A graphic, or other method, that indicates what skills and respective level of proficiency George has; preferrably something that can be understood within 15-20 sec.
@@ -284,7 +284,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   (2) PASS. A skills progress bar graphic exists on the Skills page showing level of technical knowledge of certain software development and project management skills.
 
     -   #### Casual Visitor Experience
-        1.  Story 5 As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
+        1.  **Story 5** As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
                 1.  Mobile experience on Home page should not require a scroll to view entire Home page content
                 2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
