@@ -292,7 +292,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   ##### Results
                 -   (1) PASS; Scrolling on mobie Home page is minimal but all content is viewable on iPhone6/Safari [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_1-screenshotfrom2020-12-30.jpg)
                 -   (2) PASS; Home page on tablet and desktop shows a profile, credentials, and nav bar that is not seen on mobile [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_2-screenshotfrom2020-12-30.jpg)
-                -   (2) PASS; Skills page uses the Progress Bootstrap component [BS Doc](https://getbootstrap.com/docs/5.0/components/progress/)[Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_3-screenshotfrom2020-12-30.jpg)
+                -   (2) PASS; Skills page uses the Progress Bootstrap component [BS Doc](https://getbootstrap.com/docs/5.0/components/progress/) [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_3-screenshotfrom2020-12-30.jpg)
 
 
 ### Further Testing
