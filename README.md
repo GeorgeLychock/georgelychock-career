@@ -47,9 +47,9 @@ This is the main career website for George Lychock. It contains all the job, edu
                 5.  An Education and/or Professional Development page needs to be present
 
     -   #### Casual Visitor Experience
-        -   **Story 5** As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn from an example as to how I may enhance my future sites.
+        -   **Story 5** As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn by example and enhance my skills.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  Mobile experience on Home page should not require a scroll to view entire Home page content
+                1.  Mobile experience on Home page should not require a scroll to view entire Home page content (portrait view)
                 2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
                 3.  Use at least one advanced Bootstrap components on the site.
 
@@ -284,11 +284,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
                 -   (2) PASS. A skills progress bar graphic exists on the Skills page showing level of technical knowledge of certain software development and project management skills.
 
     -   #### Casual Visitor Experience
-        -   **Story 5** As a Casual/AdHoc Visitor, I want to see some cutting edge layout and responsiveness so I can learn how to enhance my future sites.
+        -   **Story 5** As a Casual/AdHoc Visitor, I want to experience what is presently considered a basic, but effective and pleasing layout and responsiveness so I can learn by example and enhance my skills.
             -  ##### Acceptance Criteria -- Duplicated in Testing below
-                1.  Mobile experience on Home page should not require a scroll to view entire Home page content
+                1.  Mobile experience on Home page should not require a scroll to view entire Home page content (portrait view)
                 2.  The Desktop Home page should offer more initial information on site content and offer a more robust nav that will not be displayed on the mobile view Home
-                3.  Use at least one advanced Bootstrap component on the site.
+                3.  Use at least one advanced Bootstrap components on the site.
+                -   ##### Results
+                -   (1) PASS; Scrolling on mobie Home page is minimal but all content is viewable on iPhone6/Safari [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_1-screenshotfrom2020-12-30.jpg)
+                -   (2) PASS; Home page on tablet and desktop shows a profile, credentials, and nav bar that is not seen on mobile [Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_2-screenshotfrom2020-12-30.jpg)
+                -   (2) PASS; Skills page uses the Progress Bootstrap component [BS Doc](https://getbootstrap.com/docs/5.0/components/progress/)[Screenshot](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/testing/screenshots/userstory-5_3-screenshotfrom2020-12-30.jpg)
+
 
 ### Further Testing
 
