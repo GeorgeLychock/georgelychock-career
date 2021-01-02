@@ -325,7 +325,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 
-### Hosting www.georgelychock-career.com
+### Hosting
 
 The project was deployed to GitHub Pages hosting service:
 
