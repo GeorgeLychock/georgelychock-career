@@ -319,7 +319,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 ### Known Bugs
--   None at this time 
+-   Nu HTNL Checker: "The element a must not appear as a descendant of the button element..."
+    -   The Bootstrap Modal Component tested with no errors using the a element as a descendant to the button element in the following browswers: FireFox, Chrome, Safari. 
 
 ## Deployment
 
