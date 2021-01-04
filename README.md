@@ -220,7 +220,7 @@ Release 2
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator (Nu)](https://validator.w3.org/nu/)
-    - [Results-index-ERROR](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2020-11-18.png) See Known Bugs Below
+    - [Results-index-ERROR](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2021-1-3.png) See Known Bugs Below
     - [Results-workhistory](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-workhistory-screenshotfrom2020-11-22.png)
     - [Results-skills.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-skills-screenshotfrom2020-11-22.png)
     - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2020-11-22.png)
