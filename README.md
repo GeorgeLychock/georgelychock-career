@@ -217,15 +217,15 @@ Release 2
 
 ## Testing
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. I also used the W3C Link Checker but do not include the results here to save space.
 
 -   [W3C Markup Validator (Nu)](https://validator.w3.org/nu/)
-    - [Results-index.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
+    - [Results-index.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2021-01-05.png) NO ERRORS
     - [Results-workhistory.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-workhistory-screenshotfrom2021-01-04.png) NO ERRORS
     - [Results-skills.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-skills-screenshotfrom2021-01-04.png) NO ERRORS
-    - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
-    - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
-    - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
+    - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2021-01-05.png) NO ERRORS
+    - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2021-01-05.png) NO ERRORS
+    - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2021-01-05.png) NO ERRORS
 -   [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2021-01-04.png)
 -   [Lighthouse](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options)
     - [Results: Desktop Report - Home (index)](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/gl-career-lighthouse-desktop-index.jpg)
@@ -319,8 +319,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 
 ### Known Bugs
--   Nu HTML Checker: INDEX, PORTFOLIO, EDUCATION, PROFILE Pages: "The element a must not appear as a descendant of the button element..."
-    -   The Bootstrap Modal Component tested with no errors using the a element as a descendant to the button element in the following browswers: FireFox, Chrome, Safari. But, the HTML validator is rejesting the application. For now I will keep the struture as is and recognize the error as something to be addressed in the future.
+-   No known errors as of 1/5/21
 
 ## Deployment
 ### Hosting
