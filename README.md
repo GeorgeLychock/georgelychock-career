@@ -220,12 +220,12 @@ Release 2
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator (Nu)](https://validator.w3.org/nu/)
-    - [Results-index.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2021-01-03.png) ERROR See Known Bugs Below
+    - [Results-index.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-index-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
     - [Results-workhistory.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-workhistory-screenshotfrom2021-01-04.png) NO ERRORS
     - [Results-skills.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-skills-screenshotfrom2021-01-04.png) NO ERRORS
-    - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2021-01-04.png) ERROR See Known Bugs Below
-    - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2021-01-04.png) ERROR See Known Bugs Below
-    - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2021-01-04.png) ERROR See Known Bugs Below
+    - [Results-portfolio.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-portfolio-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
+    - [Results-education.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-education-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
+    - [Results-profile.html](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/w3c-nu-html-profile-screenshotfrom2021-01-05.png) ERROR See Known Bugs Below
 -   [W3C CSS Validator (Jigsaw)](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options) - [Results](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/jigsaw-css-screenshotfrom2021-01-04.png)
 -   [Lighthouse](https://jigsaw.w3.org/css-validator/#validate_by_uri+with_options)
     - [Results: Desktop Report - Home (index)](https://github.com/GeorgeLychock/georgelychock-career/blob/main/_documentation/validation/gl-career-lighthouse-desktop-index.jpg)
